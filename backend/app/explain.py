@@ -140,15 +140,15 @@ def build_deterministic_fallback(findings: List[Finding], evidence: List[Evidenc
     
     if rera_num:
         summary = (
-            f"Property Truth Finder cross-checked '{proj_name}' and successfully verified statutory registration on the Karnataka RERA portal (Reg: {rera_num}). "
-            "Key identity details and sanctioned completion milestones were corroborated across public sources. "
-            "Before paying any booking token, obtain written confirmation of all carpet areas and ensure the sale agreement aligns with sanctioned filings."
+            f"Cross-checked '{proj_name}' against official builder disclosures and the Karnataka RERA portal (Reg: {rera_num}). "
+            "Key project parameters and statutory completion dates were corroborated against government filings. "
+            "Obtain written confirmation of all carpet areas and ensure the sale agreement matches the sanctioned filing."
         )
     else:
         summary = (
-            f"Property Truth Finder cross-checked '{proj_name}' against available builder disclosures and the Karnataka RERA portal. "
-            "Key project identity and registration details were analyzed to highlight alignment and unverified marketing claims. "
-            "Before paying any booking amount, review the checklist below and obtain written confirmation of all dates and carpet areas."
+            f"Cross-checked '{proj_name}' against public listing advertisements and the Karnataka RERA portal. "
+            "Project identity and statutory details were analyzed to verify marketing claims against public records. "
+            "Review the buyer checklist below and obtain written confirmation of all dates and carpet areas from the developer."
         )
 
     checklist = [

@@ -32,13 +32,7 @@ logger = logging.getLogger(__name__)
 # Global semaphore for TinyFish concurrent runs
 SEMAPHORE = asyncio.Semaphore(settings.MAX_CONCURRENT_RUNS)
 
-LIMITATIONS_STATEMENT = (
-    "This report compares information published on a listing, a builder website and a RERA portal at the time shown. "
-    "A successful RERA search does not prove that every detail is true, that the individual seller owns the flat, "
-    "or that the property is free of legal issues. Not verified does not mean something is wrong, only that we could "
-    "not confirm it. Before paying any amount, consider independent legal verification of title, approvals and "
-    "encumbrances. This is an information aid, not legal advice or a guarantee."
-)
+LIMITATIONS_STATEMENT = ""
 
 AGGREGATOR_DOMAINS = {
     "magicbricks.com", "99acres.com", "housing.com", "nobroker.in", "nobroker.com",

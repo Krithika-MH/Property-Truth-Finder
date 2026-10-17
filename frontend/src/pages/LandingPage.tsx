@@ -372,22 +372,6 @@ export const LandingPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Limitation Statement Panel */}
-      <section className="max-w-5xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="bg-[#FEF6E0] border border-[#FADCA0] rounded-2xl p-6 text-[#854D0E]">
-          <div className="flex items-center gap-2 mb-2 font-bold text-sm text-[#92400E]">
-            <AlertTriangle className="w-4 h-4 text-[#B45309]" />
-            <span>What We Do Not Claim</span>
-          </div>
-          <p className="text-xs sm:text-sm leading-relaxed text-[#78350F]">
-            This report compares information published on a listing, a builder website and a RERA portal at the time shown.
-            A successful RERA search does not prove that every detail is true, that the individual seller owns the flat,
-            or that the property is free of legal issues. Not verified does not mean something is wrong, only that we could not confirm it.
-            Before paying any amount, consider independent legal verification of title, approvals and encumbrances. This is an information aid, not legal advice or a guarantee.
-          </p>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-[#0B1F3A] text-slate-400 py-8 px-4 border-t border-[#14325C] text-center text-xs">
         <div className="max-w-5xl mx-auto space-y-2">
@@ -397,11 +381,9 @@ export const LandingPage: React.FC = () => {
           <p className="text-[11px] text-slate-500">
             Hackathon submission for Ignite With Bangalore &bull; Track: Best Use of the TinyFish Platform
           </p>
-          <p className="text-[10px] text-slate-600 pt-2">
-            Disclaimer: This is an information aid, not legal advice or a guarantee.
-          </p>
         </div>
       </footer>
     </div>
+
   );
 };

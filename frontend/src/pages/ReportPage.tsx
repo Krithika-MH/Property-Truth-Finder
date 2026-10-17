@@ -8,7 +8,6 @@ import { fetchInvestigationReport, rerunInvestigation } from '../api';
 import { Report } from '../types';
 import { ModeRibbon } from '../components/ModeRibbon';
 import { CoverageRing } from '../components/CoverageRing';
-import { LimitationBanner } from '../components/LimitationBanner';
 import { FindingCard } from '../components/FindingCard';
 import { ComparisonMatrix } from '../components/ComparisonMatrix';
 import { AmenitiesTable } from '../components/AmenitiesTable';
@@ -285,13 +284,10 @@ export const ReportPage: React.FC = () => {
           metrics={report.metrics}
         />
 
-        {/* Section 10: Mandatory Footer Disclaimer */}
+        {/* Section 10: Footer */}
         <footer className="pt-6 pb-12 border-t border-slate-200 text-center text-xs text-slate-500 space-y-1">
           <p className="font-medium text-slate-700">
             Property Truth Finder &bull; Evidence-First Due Diligence
-          </p>
-          <p className="text-[11px] text-slate-400">
-            This is an information aid, not legal advice or a guarantee.
           </p>
         </footer>
       </main>
