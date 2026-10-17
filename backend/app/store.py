@@ -26,10 +26,7 @@ def save_investigation(inv_id: str, data: Dict[str, Any]) -> None:
         logger.error(f"Failed to persist investigation {inv_id} to disk: {e}")
 
 def get_investigation(inv_id: str) -> Optional[Dict[str, Any]]:
-    if inv_id in INVESTIGATIONS:
-        return INVESTIGATIONS[inv_id]
-    
-    # Try disk
+    # Check disk first to ensure freshly saved data is returned
     file_path = get_data_dir() / f"{inv_id}.json"
     if file_path.exists():
         try:
@@ -39,6 +36,9 @@ def get_investigation(inv_id: str) -> Optional[Dict[str, Any]]:
                 return data
         except Exception as e:
             logger.error(f"Failed to read investigation {inv_id} from disk: {e}")
+            
+    if inv_id in INVESTIGATIONS:
+        return INVESTIGATIONS[inv_id]
     return None
 
 def delete_investigation(inv_id: str) -> bool:
