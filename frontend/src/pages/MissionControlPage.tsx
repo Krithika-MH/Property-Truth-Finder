@@ -50,8 +50,8 @@ export const MissionControlPage: React.FC = () => {
     }
   };
 
-  // Determine mode
-  const mode = id?.startsWith('replay') ? 'REPLAY' : 'MOCK'; // Or LIVE
+  // Determine mode dynamically from investigation ID
+  const mode = id?.startsWith('replay') ? 'REPLAY' : (id?.startsWith('mock') ? 'MOCK' : 'LIVE');
 
   // Tally live counters
   const agentValues = Object.values(agents);
