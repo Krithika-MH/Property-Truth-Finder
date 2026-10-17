@@ -343,7 +343,14 @@ async def run_agent(
                         elif ev_type == "COMPLETE":
                             status = ev.get("status", "COMPLETED")
                             result_data = ev.get("result")
-                            error_data = ev.get("error")
+                            raw_error = ev.get("error")
+                            if isinstance(raw_error, dict):
+                                error_data = raw_error
+                            elif raw_error:
+                                error_data = {"category": "AGENT_ERROR", "message": str(raw_error)}
+                            else:
+                                error_data = None
+
                             duration = round(time.time() - start_time, 2)
                             finished_at = get_now_ist_str()
 
@@ -351,7 +358,7 @@ async def run_agent(
                             is_blocked = False
                             if isinstance(result_data, dict) and (result_data.get("blocked") or result_data.get("status") == "failure"):
                                 is_blocked = True
-                            if error_data and error_data.get("category") == "SITE_BLOCKED":
+                            if error_data and (error_data.get("category") == "SITE_BLOCKED" or "blocked" in str(error_data.get("message", "")).lower()):
                                 is_blocked = True
 
                             if is_blocked and not current_stealth and attempts <= max_retries:
