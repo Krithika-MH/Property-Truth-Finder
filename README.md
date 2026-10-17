@@ -166,8 +166,4 @@ The repository includes a ready-to-use `render.yaml` blueprint.
 - **Read-Only Agents**: Agent safety preamble strictly forbids logging in, submitting forms with personal data, or clicking sales lead-capture buttons.
 - **Zero Hallucination**: AI only synthesizes structured evidence citing `[E#]` evidence IDs and cannot alter status verdicts.
 
----
 
-## 📄 License & Ownership
-Created by **M. Krithika** for the Ignite With Bangalore Hackathon (October 2026).
-Powered by **TinyFish Web Agents**.
