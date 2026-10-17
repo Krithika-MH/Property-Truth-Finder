@@ -1,0 +1,1198 @@
+{
+  "report": {
+    "id": "e4807d88",
+    "created_at": "2026-10-17T09:14:11.935198+00:00",
+    "listing_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+    "mode": "LIVE",
+    "listing": {
+      "project_name": "N/A",
+      "builder_name": "N/A",
+      "locality": "N/A",
+      "city": "N/A",
+      "config_bhk": "N/A",
+      "price_text": "N/A",
+      "price_inr": 0.0,
+      "area_value": 0.0,
+      "area_unit": "N/A",
+      "area_type": "N/A",
+      "possession_text": "N/A",
+      "possession_ym": null,
+      "rera_numbers": [],
+      "amenities": [],
+      "listed_by": "N/A",
+      "listing_title": ">No title visible on access denied page",
+      "page_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+      "blocked": true,
+      "blocked_reason": "Access Denied error page from the server. The requested Magicbricks property listing page returned 'You don't have permission to access this server.' Both attempts to visit the URL resulted in an access-denied error, preventing extraction of any property details."
+    },
+    "builder_site_url": "https://shop.na-official-project.com/",
+    "findings": [
+      {
+        "check_id": "A",
+        "title": "RERA Registration & Promoter Check",
+        "status": "NOT_VERIFIED",
+        "reason_code": "NO_RERA_IN_LISTING",
+        "attention": "HIGH",
+        "headline": "No RERA registration number found in listing advertisement.",
+        "explanation": "The listing does not show a RERA registration number. Ask the builder for the number and check it on the Karnataka RERA portal before paying anything.",
+        "rows": [
+          {
+            "field": "RERA Registration No.",
+            "listing_value": "Not provided in listing",
+            "builder_value": "Not checked",
+            "rera_value": "Search not possible without number or name",
+            "verdict": "NOT_VERIFIED",
+            "note": "No RERA number in listing advertisement",
+            "evidence_ids": [
+              "E3"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E3"
+        ],
+        "buyer_questions": [
+          "What is the exact Karnataka RERA registration number for this phase and tower?",
+          "Can you provide a copy of the official RERA registration certificate?"
+        ]
+      },
+      {
+        "check_id": "B",
+        "title": "Builder & Project Identity",
+        "status": "NOT_VERIFIED",
+        "reason_code": "BUILDER_SITE_NOT_FOUND",
+        "attention": "ATTENTION",
+        "headline": "Builder project identity could not be fully verified.",
+        "explanation": "The builder project page was not found or shows discrepancies in project naming. Request the official marketing brochure directly from the developer.",
+        "rows": [
+          {
+            "field": "Builder Project Page",
+            "listing_value": "N/A",
+            "builder_value": "Not found on official domain",
+            "rera_value": "N/A",
+            "verdict": "NOT_VERIFIED",
+            "note": "Official builder URL not discovered or accessible",
+            "evidence_ids": [
+              "E1"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "buyer_questions": [
+          "What is the official builder website URL for this project?",
+          "Can you provide the official brochure downloaded directly from the builder's portal?"
+        ]
+      },
+      {
+        "check_id": "C",
+        "title": "Amenities & Project Claims",
+        "status": "NOT_VERIFIED",
+        "reason_code": "FIELD_MISSING_IN_SOURCE",
+        "attention": "INFO",
+        "headline": "Amenity completion status could not be verified online.",
+        "explanation": "Amenity claims could not be fully reconciled against official builder specifications online.",
+        "rows": [],
+        "evidence_ids": [],
+        "buyer_questions": [
+          "What amenities are contractually promised in the agreement for sale?"
+        ]
+      },
+      {
+        "check_id": "D",
+        "title": "Price, Area & Possession Date",
+        "status": "NOT_VERIFIED",
+        "reason_code": "NOT_COMPARABLE_MEASURE",
+        "attention": "INFO",
+        "headline": "Area measures differ: Super Built-up vs Carpet area.",
+        "explanation": "The listing gives super built-up area while official filings mandate carpet area. These measure different things and are not directly comparable. Ask for the carpet area and the loading factor.",
+        "rows": [
+          {
+            "field": "Possession / Completion Date",
+            "listing_value": "N/A",
+            "builder_value": "",
+            "rera_value": "",
+            "verdict": "NOT_VERIFIED",
+            "note": "Possession dates not directly comparable or missing in one source",
+            "evidence_ids": [
+              "E6"
+            ]
+          },
+          {
+            "field": "Area (Measurement Type)",
+            "listing_value": "N/A (N/A)",
+            "builder_value": "N/A",
+            "rera_value": "N/A",
+            "verdict": "NOT_VERIFIED",
+            "note": "Different area measurement types (super built-up vs carpet)",
+            "evidence_ids": [
+              "E5"
+            ]
+          },
+          {
+            "field": "Pricing & Base Rate",
+            "listing_value": "N/A",
+            "builder_value": "N/A",
+            "rera_value": "Not recorded on RERA",
+            "verdict": "NOT_VERIFIED",
+            "note": "Price details not fully quantified across both sources",
+            "evidence_ids": [
+              "E4"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6"
+        ],
+        "buyer_questions": [
+          "What is the exact carpet area in square meters and square feet for this unit?",
+          "What percentage loading factor is applied to calculate the super built-up area?"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+        "retrieved_at": "2026-10-17T14:43:55+05:30",
+        "field": "Project Name",
+        "value": "N/A",
+        "agent_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E2",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+        "retrieved_at": "2026-10-17T14:43:55+05:30",
+        "field": "Builder Name",
+        "value": "N/A",
+        "agent_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E3",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+        "retrieved_at": "2026-10-17T14:43:55+05:30",
+        "field": "RERA Number",
+        "value": "None visible",
+        "agent_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E4",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+        "retrieved_at": "2026-10-17T14:43:55+05:30",
+        "field": "Price",
+        "value": "N/A",
+        "agent_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E5",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+        "retrieved_at": "2026-10-17T14:43:55+05:30",
+        "field": "Area",
+        "value": "N/A (N/A)",
+        "agent_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E6",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+        "retrieved_at": "2026-10-17T14:43:55+05:30",
+        "field": "Possession Date",
+        "value": "N/A",
+        "agent_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "run_id": null,
+        "note": null
+      }
+    ],
+    "agents": [
+      {
+        "agent_id": "L",
+        "label": "Listing Extractor",
+        "state": "COMPLETED",
+        "run_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "streaming_url": "https://ip-3-101-154-210.tetra-data.production.tinyfish.io/tf-b81b47da-630e-483a-87ac-694ed1e0f275/stream/0",
+        "video_url": null,
+        "steps": 6,
+        "duration_s": 36.61,
+        "start_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "error": null,
+        "progress": [
+          {
+            "ts": "14:37:10",
+            "purpose": "Visit property listing page to extract details"
+          },
+          {
+            "ts": "14:37:12",
+            "purpose": "Wait for page content to load"
+          },
+          {
+            "ts": "14:37:16",
+            "purpose": "Check page content for property details"
+          },
+          {
+            "ts": "14:37:19",
+            "purpose": "Retry visiting the property page"
+          },
+          {
+            "ts": "14:37:22",
+            "purpose": "Check if property page loaded"
+          },
+          {
+            "ts": "14:37:36",
+            "purpose": "Report blocked due to access denied error"
+          }
+        ]
+      },
+      {
+        "agent_id": "D",
+        "label": "Builder Discovery",
+        "state": "COMPLETED",
+        "run_id": "3e7f1ed3-ab80-4e86-86ab-8a9140b527f5",
+        "streaming_url": "https://ip-204-236-183-124.tetra-data.production.tinyfish.io/tf-6f9f1126-a4b7-470d-bada-bcb074ceca77/stream/0",
+        "video_url": null,
+        "steps": 3,
+        "duration_s": 55.91,
+        "start_url": "https://duckduckgo.com/?q=N%2FA+N%2FA+official+website",
+        "error": null,
+        "progress": [
+          {
+            "ts": "14:37:51",
+            "purpose": "Navigate to DuckDuckGo search for N/A N/A official website"
+          },
+          {
+            "ts": "14:37:56",
+            "purpose": "Extract organic search results data"
+          },
+          {
+            "ts": "14:38:35",
+            "purpose": "Return 8 organic search results in JSON format"
+          }
+        ]
+      },
+      {
+        "agent_id": "B",
+        "label": "Builder Investigator",
+        "state": "COMPLETED",
+        "run_id": "34738879-49d9-45da-a3d0-65e3d89a975a",
+        "streaming_url": "https://ip-18-144-56-240.tetra-data.production.tinyfish.io/tf-23f14ca8-73e9-4cbd-a1ff-a40c1e154511/stream/0",
+        "video_url": null,
+        "steps": 4,
+        "duration_s": 2.49,
+        "start_url": "https://shop.na-official-project.com/",
+        "error": null,
+        "progress": [
+          {
+            "ts": "14:38:46",
+            "purpose": "Visit the official project website"
+          },
+          {
+            "ts": "14:38:51",
+            "purpose": "Find residential project by N/A developer"
+          },
+          {
+            "ts": "14:38:53",
+            "purpose": "Check what is visible on the page"
+          },
+          {
+            "ts": "14:39:01",
+            "purpose": "Report blocked by Cloudflare CAPTCHA"
+          }
+        ]
+      },
+      {
+        "agent_id": "R",
+        "label": "Karnataka RERA Investigator",
+        "state": "COMPLETED",
+        "run_id": "08e1ad3c-249b-4f2c-b3f8-80dcb5c7070d",
+        "streaming_url": "https://ip-18-144-56-240.tetra-data.production.tinyfish.io/tf-7a44e137-ef3c-4aa6-8258-556b6f4f5619/stream/0",
+        "video_url": null,
+        "steps": 26,
+        "duration_s": 313.37,
+        "start_url": "https://rera.karnataka.gov.in",
+        "error": null,
+        "progress": [
+          {
+            "ts": "14:38:48",
+            "purpose": "Visit Karnataka RERA website to find registered projects"
+          },
+          {
+            "ts": "14:39:22",
+            "purpose": "Retry visiting Karnataka RERA website"
+          },
+          {
+            "ts": "14:40:18",
+            "purpose": "Find Karnataka RERA website for registered projects"
+          },
+          {
+            "ts": "14:40:23",
+            "purpose": "Visit Karnataka RERA projects list page"
+          },
+          {
+            "ts": "14:40:49",
+            "purpose": "Reconfigure browser to access Karnataka RERA site"
+          },
+          {
+            "ts": "14:40:52",
+            "purpose": "Visit Karnataka RERA homepage with new browser configuration"
+          },
+          {
+            "ts": "14:40:58",
+            "purpose": "Try visiting Karnataka RERA homepage via alternate path"
+          },
+          {
+            "ts": "14:41:02",
+            "purpose": "Retry Karnataka RERA homepage"
+          },
+          {
+            "ts": "14:41:05",
+            "purpose": "Visit Karnataka RERA projects list directly"
+          },
+          {
+            "ts": "14:41:10",
+            "purpose": "Visit Karnataka RERA projects list"
+          },
+          {
+            "ts": "14:41:17",
+            "purpose": "Try viewing completed projects page"
+          },
+          {
+            "ts": "14:41:22",
+            "purpose": "Get page description of current RERA page"
+          },
+          {
+            "ts": "14:41:27",
+            "purpose": "Wait before retrying"
+          },
+          {
+            "ts": "14:41:33",
+            "purpose": "Try Google cached version of Karnataka RERA"
+          },
+          {
+            "ts": "14:41:40",
+            "purpose": "Try HTTP instead of HTTPS for Karnataka RERA"
+          },
+          {
+            "ts": "14:41:57",
+            "purpose": "Check what is visible on the RERA page"
+          },
+          {
+            "ts": "14:42:06",
+            "purpose": "Wait for page to load"
+          },
+          {
+            "ts": "14:42:12",
+            "purpose": "Find cached or alternative Karnataka RERA project page"
+          },
+          {
+            "ts": "14:42:15",
+            "purpose": "Retry viewing all projects page"
+          },
+          {
+            "ts": "14:42:20",
+            "purpose": "Try Karnataka RERA home page again"
+          },
+          {
+            "ts": "14:42:24",
+            "purpose": "Try Karnataka RERA Home page with capital H"
+          },
+          {
+            "ts": "14:42:30",
+            "purpose": "Find cached Karnataka RERA project listing page"
+          },
+          {
+            "ts": "14:42:32",
+            "purpose": "Try Wayback Machine for Karnataka RERA"
+          },
+          {
+            "ts": "14:42:51",
+            "purpose": "View archived Karnataka RERA projects page from June 2024"
+          },
+          {
+            "ts": "14:43:25",
+            "purpose": "Click search button to search projects"
+          },
+          {
+            "ts": "14:43:47",
+            "purpose": "Report blocked due to website unavailability"
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "total_seconds": 429.74,
+      "tinyfish_runs": 4,
+      "runs_succeeded": 4,
+      "total_steps": 39,
+      "domains_visited": [
+        "duckduckgo.com",
+        "shop.na-official-project.com",
+        "www.magicbricks.com",
+        "rera.karnataka.gov.in"
+      ],
+      "fields_compared": 1,
+      "fields_verified": 0,
+      "coverage_pct": 0.0,
+      "manual_baseline_minutes": 45
+    },
+    "summary": "Property Truth Finder cross-checked this listing against official builder disclosures and the Karnataka RERA portal. Key project identity and registration details were analyzed to highlight alignment and unverified marketing claims. Before paying any booking amount, review the checklist below and obtain written confirmation of all dates and carpet areas.",
+    "buyer_checklist": [
+      "Ask the builder for the sanctioned building plan and RERA certificate copy.",
+      "Verify that your specific tower and wing are included in the active RERA phase.",
+      "Obtain a written breakdown of carpet area, built-up area, and the exact loading factor.",
+      "Confirm the legally binding possession date that will be printed in the Agreement for Sale.",
+      "Check whether common amenities are scheduled for delivery with your phase or a future phase.",
+      "Request an encumbrance certificate (EC) from the sub-registrar office for the past 15 years.",
+      "Do not pay any non-refundable booking deposit without a lawyer reviewing the draft sale agreement."
+    ],
+    "limitations_text": "This report compares information published on a listing, a builder website and a RERA portal at the time shown. A successful RERA search does not prove that every detail is true, that the individual seller owns the flat, or that the property is free of legal issues. Not verified does not mean something is wrong, only that we could not confirm it. Before paying any amount, consider independent legal verification of title, approvals and encumbrances. This is an information aid, not legal advice or a guarantee.",
+    "banned_phrase_hits": []
+  },
+  "events": [
+    {
+      "event": "investigation.started",
+      "data": {
+        "id": "e4807d88",
+        "listing_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "mode": "LIVE"
+      },
+      "ts": "14:37:02"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "LISTING",
+        "ts": "14:37:02"
+      },
+      "ts": "14:37:02"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "L",
+        "label": "Listing Extractor",
+        "start_url": "",
+        "ts": "14:37:05"
+      },
+      "ts": "14:37:05"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "L",
+        "run_id": "18b81cfb-dc8d-4538-b565-990c5c0d2f83",
+        "streaming_url": "https://ip-3-101-154-210.tetra-data.production.tinyfish.io/tf-b81b47da-630e-483a-87ac-694ed1e0f275/stream/0"
+      },
+      "ts": "14:37:08"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Visit property listing page to extract details",
+        "ts": "14:37:10"
+      },
+      "ts": "14:37:10"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Wait for page content to load",
+        "ts": "14:37:12"
+      },
+      "ts": "14:37:12"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Check page content for property details",
+        "ts": "14:37:16"
+      },
+      "ts": "14:37:16"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Retry visiting the property page",
+        "ts": "14:37:19"
+      },
+      "ts": "14:37:19"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Check if property page loaded",
+        "ts": "14:37:22"
+      },
+      "ts": "14:37:22"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Report blocked due to access denied error",
+        "ts": "14:37:36"
+      },
+      "ts": "14:37:36"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "L",
+        "state": "COMPLETED",
+        "steps": 6,
+        "duration_s": 38.39,
+        "error": null
+      },
+      "ts": "14:37:40"
+    },
+    {
+      "event": "extraction.ready",
+      "data": {
+        "listing": {
+          "project_name": "N/A",
+          "builder_name": "N/A",
+          "locality": "N/A",
+          "city": "N/A",
+          "config_bhk": "N/A",
+          "price_text": "N/A",
+          "price_inr": 0.0,
+          "area_value": 0.0,
+          "area_unit": "N/A",
+          "area_type": "N/A",
+          "possession_text": "N/A",
+          "possession_ym": null,
+          "rera_numbers": [],
+          "amenities": [],
+          "listed_by": "N/A",
+          "listing_title": ">No title visible on access denied page",
+          "page_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d423532323431333033",
+          "blocked": true,
+          "blocked_reason": "Access Denied error page from the server. The requested Magicbricks property listing page returned 'You don't have permission to access this server.' Both attempts to visit the URL resulted in an access-denied error, preventing extraction of any property details."
+        }
+      },
+      "ts": "14:37:40"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "DISCOVERY",
+        "ts": "14:37:40"
+      },
+      "ts": "14:37:40"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "D",
+        "label": "Builder Discovery",
+        "start_url": "",
+        "ts": "14:37:43"
+      },
+      "ts": "14:37:43"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "D",
+        "run_id": "3e7f1ed3-ab80-4e86-86ab-8a9140b527f5",
+        "streaming_url": "https://ip-204-236-183-124.tetra-data.production.tinyfish.io/tf-6f9f1126-a4b7-470d-bada-bcb074ceca77/stream/0"
+      },
+      "ts": "14:37:45"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Navigate to DuckDuckGo search for N/A N/A official website",
+        "ts": "14:37:51"
+      },
+      "ts": "14:37:51"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Extract organic search results data",
+        "ts": "14:37:56"
+      },
+      "ts": "14:37:56"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Return 8 organic search results in JSON format",
+        "ts": "14:38:35"
+      },
+      "ts": "14:38:35"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "D",
+        "state": "COMPLETED",
+        "steps": 3,
+        "duration_s": 97.8,
+        "error": null
+      },
+      "ts": "14:38:39"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "INVESTIGATE",
+        "ts": "14:38:39"
+      },
+      "ts": "14:38:39"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "R",
+        "label": "Karnataka RERA Investigator",
+        "start_url": "",
+        "ts": "14:38:43"
+      },
+      "ts": "14:38:43"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "B",
+        "label": "Builder Investigator",
+        "start_url": "",
+        "ts": "14:38:43"
+      },
+      "ts": "14:38:43"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "B",
+        "run_id": "34738879-49d9-45da-a3d0-65e3d89a975a",
+        "streaming_url": "https://ip-18-144-56-240.tetra-data.production.tinyfish.io/tf-23f14ca8-73e9-4cbd-a1ff-a40c1e154511/stream/0"
+      },
+      "ts": "14:38:45"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "R",
+        "run_id": "08e1ad3c-249b-4f2c-b3f8-80dcb5c7070d",
+        "streaming_url": "https://ip-54-215-97-133.tetra-data.production.tinyfish.io/tf-670ffee5-9a2d-4584-b357-50c18c8a6537/stream/0"
+      },
+      "ts": "14:38:45"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Visit the official project website",
+        "ts": "14:38:46"
+      },
+      "ts": "14:38:46"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Visit Karnataka RERA website to find registered projects",
+        "ts": "14:38:48"
+      },
+      "ts": "14:38:48"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Find residential project by N/A developer",
+        "ts": "14:38:51"
+      },
+      "ts": "14:38:51"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check what is visible on the page",
+        "ts": "14:38:53"
+      },
+      "ts": "14:38:53"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Report blocked by Cloudflare CAPTCHA",
+        "ts": "14:39:01"
+      },
+      "ts": "14:39:01"
+    },
+    {
+      "event": "agent.retry",
+      "data": {
+        "agent_id": "B",
+        "reason": "SITE_BLOCKED_ESCALATE_STEALTH",
+        "attempt": 1
+      },
+      "ts": "14:39:03"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "B",
+        "state": "COMPLETED",
+        "steps": 4,
+        "duration_s": 123.44,
+        "error": null
+      },
+      "ts": "14:39:05"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Retry visiting Karnataka RERA website",
+        "ts": "14:39:22"
+      },
+      "ts": "14:39:22"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Find Karnataka RERA website for registered projects",
+        "ts": "14:40:18"
+      },
+      "ts": "14:40:18"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Visit Karnataka RERA projects list page",
+        "ts": "14:40:23"
+      },
+      "ts": "14:40:23"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Reconfigure browser to access Karnataka RERA site",
+        "ts": "14:40:49"
+      },
+      "ts": "14:40:49"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "R",
+        "run_id": "08e1ad3c-249b-4f2c-b3f8-80dcb5c7070d",
+        "streaming_url": "https://ip-18-144-56-240.tetra-data.production.tinyfish.io/tf-7a44e137-ef3c-4aa6-8258-556b6f4f5619/stream/0"
+      },
+      "ts": "14:40:51"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Visit Karnataka RERA homepage with new browser configuration",
+        "ts": "14:40:52"
+      },
+      "ts": "14:40:52"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try visiting Karnataka RERA homepage via alternate path",
+        "ts": "14:40:58"
+      },
+      "ts": "14:40:58"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Retry Karnataka RERA homepage",
+        "ts": "14:41:02"
+      },
+      "ts": "14:41:02"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Visit Karnataka RERA projects list directly",
+        "ts": "14:41:05"
+      },
+      "ts": "14:41:05"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Visit Karnataka RERA projects list",
+        "ts": "14:41:10"
+      },
+      "ts": "14:41:10"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try viewing completed projects page",
+        "ts": "14:41:17"
+      },
+      "ts": "14:41:17"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Get page description of current RERA page",
+        "ts": "14:41:22"
+      },
+      "ts": "14:41:22"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Wait before retrying",
+        "ts": "14:41:27"
+      },
+      "ts": "14:41:27"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try Google cached version of Karnataka RERA",
+        "ts": "14:41:33"
+      },
+      "ts": "14:41:33"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try HTTP instead of HTTPS for Karnataka RERA",
+        "ts": "14:41:40"
+      },
+      "ts": "14:41:40"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Check what is visible on the RERA page",
+        "ts": "14:41:57"
+      },
+      "ts": "14:41:57"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Wait for page to load",
+        "ts": "14:42:06"
+      },
+      "ts": "14:42:06"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Find cached or alternative Karnataka RERA project page",
+        "ts": "14:42:12"
+      },
+      "ts": "14:42:12"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Retry viewing all projects page",
+        "ts": "14:42:15"
+      },
+      "ts": "14:42:15"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try Karnataka RERA home page again",
+        "ts": "14:42:20"
+      },
+      "ts": "14:42:20"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try Karnataka RERA Home page with capital H",
+        "ts": "14:42:24"
+      },
+      "ts": "14:42:24"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Find cached Karnataka RERA project listing page",
+        "ts": "14:42:30"
+      },
+      "ts": "14:42:30"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try Wayback Machine for Karnataka RERA",
+        "ts": "14:42:32"
+      },
+      "ts": "14:42:32"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "View archived Karnataka RERA projects page from June 2024",
+        "ts": "14:42:51"
+      },
+      "ts": "14:42:51"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Click search button to search projects",
+        "ts": "14:43:25"
+      },
+      "ts": "14:43:25"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Report blocked due to website unavailability",
+        "ts": "14:43:47"
+      },
+      "ts": "14:43:47"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "R",
+        "state": "COMPLETED",
+        "steps": 26,
+        "duration_s": 413.66,
+        "error": null
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "COMPARE",
+        "ts": "14:43:55"
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "A",
+          "title": "RERA Registration & Promoter Check",
+          "status": "NOT_VERIFIED",
+          "reason_code": "NO_RERA_IN_LISTING",
+          "attention": "HIGH",
+          "headline": "No RERA registration number listed on the property advertisement.",
+          "explanation": "The listing [E3] does not state a RERA registration number. Under Karnataka RERA regulations, all ongoing and new residential projects must display a valid registration ID.",
+          "rows": [
+            {
+              "field": "RERA Registration No.",
+              "listing_value": "Not provided in listing",
+              "builder_value": "Not checked",
+              "rera_value": "Search not possible without number or name",
+              "verdict": "NOT_VERIFIED",
+              "note": "No RERA number in listing advertisement",
+              "evidence_ids": [
+                "E3"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E3"
+          ],
+          "buyer_questions": [
+            "What is the exact Karnataka RERA registration number for this phase and tower?",
+            "Can you provide a copy of the official RERA registration certificate?"
+          ]
+        }
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "B",
+          "title": "Builder & Project Identity",
+          "status": "NOT_VERIFIED",
+          "reason_code": "BUILDER_SITE_NOT_FOUND",
+          "attention": "ATTENTION",
+          "headline": "Builder official project website could not be identified or accessed.",
+          "explanation": "TinyFish web agent was unable to find or access an official project webpage for 'N/A' on the builder's verified domain.",
+          "rows": [
+            {
+              "field": "Builder Project Page",
+              "listing_value": "N/A",
+              "builder_value": "Not found on official domain",
+              "rera_value": "N/A",
+              "verdict": "NOT_VERIFIED",
+              "note": "Official builder URL not discovered or accessible",
+              "evidence_ids": [
+                "E1"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E1",
+            "E2"
+          ],
+          "buyer_questions": [
+            "What is the official builder website URL for this project?",
+            "Can you provide the official brochure downloaded directly from the builder's portal?"
+          ]
+        }
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "C",
+          "title": "Amenities & Project Claims",
+          "status": "NOT_VERIFIED",
+          "reason_code": "FIELD_MISSING_IN_SOURCE",
+          "attention": "INFO",
+          "headline": "No specific amenities were itemized in the listing advertisement.",
+          "explanation": "The listing page did not detail individual amenities to cross-reference.",
+          "rows": [],
+          "evidence_ids": [],
+          "buyer_questions": [
+            "What amenities are contractually promised in the agreement for sale?"
+          ]
+        }
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "D",
+          "title": "Price, Area & Possession Date",
+          "status": "NOT_VERIFIED",
+          "reason_code": "NOT_COMPARABLE_MEASURE",
+          "attention": "INFO",
+          "headline": "Area metrics or timelines could not be directly reconciled.",
+          "explanation": "Listing advertises super built-up area while official filings mandate carpet area. Because these measure different boundaries, they cannot be equated without the builder's loading factor.",
+          "rows": [
+            {
+              "field": "Possession / Completion Date",
+              "listing_value": "N/A",
+              "builder_value": "",
+              "rera_value": "",
+              "verdict": "NOT_VERIFIED",
+              "note": "Possession dates not directly comparable or missing in one source",
+              "evidence_ids": [
+                "E6"
+              ]
+            },
+            {
+              "field": "Area (Measurement Type)",
+              "listing_value": "N/A (N/A)",
+              "builder_value": "N/A",
+              "rera_value": "N/A",
+              "verdict": "NOT_VERIFIED",
+              "note": "Different area measurement types (super built-up vs carpet)",
+              "evidence_ids": [
+                "E5"
+              ]
+            },
+            {
+              "field": "Pricing & Base Rate",
+              "listing_value": "N/A",
+              "builder_value": "N/A",
+              "rera_value": "Not recorded on RERA",
+              "verdict": "NOT_VERIFIED",
+              "note": "Price details not fully quantified across both sources",
+              "evidence_ids": [
+                "E4"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E4",
+            "E5",
+            "E6"
+          ],
+          "buyer_questions": [
+            "What is the exact carpet area in square meters and square feet for this unit?",
+            "What percentage loading factor is applied to calculate the super built-up area?"
+          ]
+        }
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "REPORT",
+        "ts": "14:43:55"
+      },
+      "ts": "14:43:55"
+    },
+    {
+      "event": "report.ready",
+      "data": {
+        "report_id": "e4807d88"
+      },
+      "ts": "14:44:11"
+    }
+  ]
+}

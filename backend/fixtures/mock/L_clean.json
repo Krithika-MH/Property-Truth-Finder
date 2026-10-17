@@ -1,0 +1,28 @@
+{
+  "blocked": false,
+  "blocked_reason": null,
+  "listing_title": "2 BHK 1150 Sq-ft Multistorey Apartment for Sale in Brigade Cosmopolis, Whitefield, Bangalore",
+  "project_name": "Brigade Cosmopolis",
+  "builder_name": "Brigade Enterprises",
+  "locality": "Whitefield",
+  "city": "Bangalore",
+  "config_bhk": "2 BHK",
+  "price_text": "Rs 1.25 Cr",
+  "price_inr": 12500000,
+  "area_value": 1150,
+  "area_unit": "sq ft",
+  "area_type": "super built-up",
+  "possession_text": "Dec 2027",
+  "rera_numbers": ["PRM/KA/RERA/1251/446/PR/171015/000456"],
+  "amenities": [
+    "Swimming Pool",
+    "Gymnasium",
+    "Clubhouse",
+    "Children Play Area",
+    "24x7 Security",
+    "Power Backup",
+    "Lift"
+  ],
+  "listed_by": "Agent",
+  "page_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139"
+}

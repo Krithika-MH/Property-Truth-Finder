@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sample-1",
+    "name": "Brigade Cosmopolis, Whitefield (Clean / Verified)",
+    "description": "Established Bangalore project with verified Karnataka RERA registration and official builder specs.",
+    "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+    "expected_status": "MATCHED",
+    "tag": "Clean"
+  },
+  {
+    "id": "sample-2",
+    "name": "Sobha Neopolis, Panathur (Area & Possession Discrepancy)",
+    "description": "Super built-up vs carpet area difference and marketing possession date variance against RERA completion.",
+    "url": "https://www.magicbricks.com/propertyDetails/3-BHK-1611-Sq-ft-Multistorey-Apartment-FOR-Sale-Panathur-in-Bangalore&id=4d4235333633393230",
+    "expected_status": "MISMATCH",
+    "tag": "Discrepancy"
+  },
+  {
+    "id": "sample-3",
+    "name": "Greenfield Meadows, Hoskote (Unregistered / No RERA)",
+    "description": "Listing omits RERA registration number; tests the unverified warning and buyer action checklist.",
+    "url": "https://www.magicbricks.com/propertyDetails/2-BHK-950-Sq-ft-Multistorey-Apartment-FOR-Sale-Hoskote-in-Bangalore&id=4d4235333633393231",
+    "expected_status": "NOT_VERIFIED",
+    "tag": "Missing RERA"
+  }
+]

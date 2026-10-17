@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F6F8FB;
+    color: #0F172A;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  *:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #0F9D8A;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print Stylesheet strictly complying with PRD Section 6.8 */
+@media print {
+  /* Hide non-printable UI chrome */
+  nav,
+  .no-print,
+  button,
+  iframe,
+  .print-hide,
+  .ribbon-banner {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  .print-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Force all cards to expand without overflow truncation */
+  .card-print {
+    border: 1px solid #CBD5E1 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+  }
+
+  /* Print header and footer */
+  .print-header {
+    display: block !important;
+    border-bottom: 2px solid #0F172A;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+
+  .print-footer {
+    display: block !important;
+    border-top: 1px solid #CBD5E1;
+    padding-top: 8px;
+    margin-top: 24px;
+    font-size: 8pt;
+    color: #475569;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #000000 !important;
+  }
+}

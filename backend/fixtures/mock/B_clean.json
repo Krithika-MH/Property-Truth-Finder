@@ -1,0 +1,40 @@
+{
+  "blocked": false,
+  "blocked_reason": null,
+  "found_project_page": true,
+  "page_url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+  "project_name": "Brigade Cosmopolis",
+  "developer_name": "Brigade Enterprises Limited",
+  "location_text": "Whitefield, Bengaluru, Karnataka",
+  "configs": [
+    {
+      "label": "2 BHK Premium",
+      "area_value": 1150,
+      "area_unit": "sq ft",
+      "area_type": "super built-up",
+      "price_text": "Starting from Rs 1.22 Cr",
+      "price_inr": 12200000
+    },
+    {
+      "label": "3 BHK Luxury",
+      "area_value": 1650,
+      "area_unit": "sq ft",
+      "area_type": "super built-up",
+      "price_text": "Starting from Rs 1.75 Cr",
+      "price_inr": 17500000
+    }
+  ],
+  "price_from_inr": 12200000,
+  "possession_text": "Possession: Dec 2027",
+  "status_text": "Under Construction",
+  "amenities": [
+    {"name": "Gymnasium", "status": "available"},
+    {"name": "Swimming Pool", "status": "available"},
+    {"name": "Clubhouse", "status": "available"},
+    {"name": "Kids Play Area", "status": "available"},
+    {"name": "Round-the-clock Security", "status": "available"},
+    {"name": "DG Backup", "status": "available"},
+    {"name": "Elevator", "status": "available"}
+  ],
+  "rera_numbers": ["PRM/KA/RERA/1251/446/PR/171015/000456"]
+}

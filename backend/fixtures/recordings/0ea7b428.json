@@ -1,0 +1,1207 @@
+{
+  "report": {
+    "id": "0ea7b428",
+    "created_at": "2026-10-17T09:48:10.805462+00:00",
+    "listing_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+    "mode": "LIVE",
+    "listing": {
+      "project_name": "Surya Humming Bird",
+      "builder_name": "Surya",
+      "locality": "Whitefield",
+      "city": "Bengaluru",
+      "config_bhk": "Residential Unit",
+      "price_text": "",
+      "price_inr": 0.0,
+      "area_value": 0.0,
+      "area_unit": "",
+      "area_type": "",
+      "possession_text": "",
+      "possession_ym": null,
+      "rera_numbers": [],
+      "amenities": [],
+      "listed_by": "",
+      "listing_title": "Surya Humming Bird in Whitefield, Bengaluru",
+      "page_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+      "blocked": true,
+      "blocked_reason": "Access Denied error page was returned when attempting to visit the property listing URL. The page states 'You do not have permission to access the requested URL' and provides reference number 18.2e4e4317.1792230113.12bf8f44. No property listing information is accessible due to this access restriction."
+    },
+    "builder": {
+      "site_url": "https://suryaprojects.life/",
+      "page_url": "https://suryaprojects.life/",
+      "project_name": "",
+      "developer_name": "",
+      "location_text": "",
+      "configs": [],
+      "price_from_inr": 0.0,
+      "possession_text": "",
+      "possession_ym": null,
+      "status_text": "",
+      "amenities": [],
+      "rera_numbers": [],
+      "found_project_page": false,
+      "blocked": true,
+      "blocked_reason": "The project page for \"Surya Humming Bird\" was not found. Visiting the direct URL https://suryaprojects.life/project-surya-hummingbird/ returned a 404 error with the message \"The page can't be found.\" The Real Estate page at https://suryaprojects.life/service-real-estate/ lists several projects (Surya Tree of Life, Surya Sky Terrace, Surya Serene Skyline, Surya Elegance, Surya Officespace) but does not include Surya Humming Bird. No other links or search results on the site lead to a Surya Humming Bird project page."
+    },
+    "rera": {
+      "found": true,
+      "search_performed": true,
+      "searched_by": "project name and location",
+      "page_url": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/surya-humming-bird/7864",
+      "registration_no": "PRM/KA/RERA/1251/446/PR/210928/004305",
+      "project_name": "Surya Humming Bird",
+      "promoter_name": "H Ramachandra",
+      "location_text": "Sy Nos.42, 44/1 and 44/2, Channasandra Village, Biddarahalli Hobli, Bangalore East Taluk",
+      "district": "Bengaluru Urban",
+      "taluk": null,
+      "proposed_completion_ym": null,
+      "proposed_completion_text": "31-12-2025",
+      "registered_on": null,
+      "registered_on_text": "27th Sept 2021",
+      "status_text": "Completed",
+      "unit_areas": [
+        {
+          "label": "2 BHK",
+          "carpet_sqm": null,
+          "carpet_area_text": "9527 Sq Mtr (total)"
+        }
+      ],
+      "blocked": false,
+      "blocked_reason": ""
+    },
+    "builder_site_url": "https://suryaprojects.life/",
+    "findings": [
+      {
+        "check_id": "A",
+        "title": "RERA Registration & Promoter Check",
+        "status": "NOT_VERIFIED",
+        "reason_code": "NO_RERA_IN_LISTING",
+        "attention": "HIGH",
+        "headline": "No RERA registration number found in listing advertisement.",
+        "explanation": "The listing does not show a RERA registration number. Ask the builder for the number and check it on the Karnataka RERA portal before paying anything.",
+        "rows": [
+          {
+            "field": "RERA Registration No.",
+            "listing_value": "Not provided in listing",
+            "builder_value": "Not checked",
+            "rera_value": "Search not possible without number or name",
+            "verdict": "NOT_VERIFIED",
+            "note": "No RERA number in listing advertisement",
+            "evidence_ids": [
+              "E3"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E3"
+        ],
+        "buyer_questions": [
+          "What is the exact Karnataka RERA registration number for this phase and tower?",
+          "Can you provide a copy of the official RERA registration certificate?"
+        ]
+      },
+      {
+        "check_id": "B",
+        "title": "Builder & Project Identity",
+        "status": "NOT_VERIFIED",
+        "reason_code": "BUILDER_SITE_NOT_FOUND",
+        "attention": "ATTENTION",
+        "headline": "Builder project identity could not be fully verified.",
+        "explanation": "The builder project page was not found or shows discrepancies in project naming. Request the official marketing brochure directly from the developer.",
+        "rows": [
+          {
+            "field": "Builder Project Page",
+            "listing_value": "Surya Humming Bird",
+            "builder_value": "Not found on official domain",
+            "rera_value": "Surya Humming Bird",
+            "verdict": "NOT_VERIFIED",
+            "note": "Official builder URL not discovered or accessible",
+            "evidence_ids": [
+              "E1"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "buyer_questions": [
+          "What is the official builder website URL for this project?",
+          "Can you provide the official brochure downloaded directly from the builder's portal?"
+        ]
+      },
+      {
+        "check_id": "C",
+        "title": "Amenities & Project Claims",
+        "status": "NOT_VERIFIED",
+        "reason_code": "FIELD_MISSING_IN_SOURCE",
+        "attention": "INFO",
+        "headline": "Amenity completion status could not be verified online.",
+        "explanation": "Amenity claims could not be fully reconciled against official builder specifications online.",
+        "rows": [],
+        "evidence_ids": [],
+        "buyer_questions": [
+          "What amenities are contractually promised in the agreement for sale?"
+        ]
+      },
+      {
+        "check_id": "D",
+        "title": "Price, Area & Possession Date",
+        "status": "NOT_VERIFIED",
+        "reason_code": "NOT_COMPARABLE_MEASURE",
+        "attention": "INFO",
+        "headline": "Area measures differ: Super Built-up vs Carpet area.",
+        "explanation": "The listing gives super built-up area while official filings mandate carpet area. These measure different things and are not directly comparable. Ask for the carpet area and the loading factor.",
+        "rows": [
+          {
+            "field": "Possession / Completion Date",
+            "listing_value": "Not stated",
+            "builder_value": "",
+            "rera_value": "31-12-2025",
+            "verdict": "NOT_VERIFIED",
+            "note": "Possession dates not directly comparable or missing in one source",
+            "evidence_ids": [
+              "E6"
+            ]
+          },
+          {
+            "field": "Area (Measurement Type)",
+            "listing_value": "(unknown)",
+            "builder_value": "N/A",
+            "rera_value": "9527 Sq Mtr (total)",
+            "verdict": "NOT_VERIFIED",
+            "note": "Different area measurement types (super built-up vs carpet)",
+            "evidence_ids": [
+              "E5"
+            ]
+          },
+          {
+            "field": "Pricing & Base Rate",
+            "listing_value": "N/A",
+            "builder_value": "N/A",
+            "rera_value": "Not recorded on RERA",
+            "verdict": "NOT_VERIFIED",
+            "note": "Price details not fully quantified across both sources",
+            "evidence_ids": [
+              "E4"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E7"
+        ],
+        "buyer_questions": [
+          "What is the exact carpet area in square meters and square feet for this unit?",
+          "What percentage loading factor is applied to calculate the super built-up area?"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "Project Name",
+        "value": "Surya Humming Bird",
+        "agent_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E2",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "Builder Name",
+        "value": "Surya",
+        "agent_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E3",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "RERA Number",
+        "value": "None visible",
+        "agent_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E4",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "Price",
+        "value": "Price on request",
+        "agent_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E5",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "Area",
+        "value": "(unknown)",
+        "agent_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E6",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "Possession Date",
+        "value": "Not stated",
+        "agent_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E7",
+        "source_type": "RERA",
+        "source_name": "Karnataka RERA",
+        "url": "https://www.aurumproptech.in/pulse/rera/karnataka/bengaluru-urban/surya-humming-bird/7864",
+        "retrieved_at": "2026-10-17T15:17:49+05:30",
+        "field": "Proposed Completion",
+        "value": "31-12-2025",
+        "agent_id": "ab4eeace-e6e0-44b1-9193-430782ab3e58",
+        "run_id": null,
+        "note": null
+      }
+    ],
+    "agents": [
+      {
+        "agent_id": "L",
+        "label": "Listing Extractor",
+        "state": "COMPLETED",
+        "run_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "streaming_url": "https://ip-18-144-56-240.tetra-data.production.tinyfish.io/tf-ea709f66-a36d-45d2-b8af-42a735056297/stream/0",
+        "video_url": null,
+        "steps": 4,
+        "duration_s": 33.78,
+        "start_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "error": null,
+        "progress": [
+          {
+            "ts": "15:11:50",
+            "purpose": "Visit property listing page to extract details"
+          },
+          {
+            "ts": "15:11:53",
+            "purpose": "Visit property listing page to extract details"
+          },
+          {
+            "ts": "15:11:56",
+            "purpose": "Extract property listing details from page"
+          },
+          {
+            "ts": "15:12:10",
+            "purpose": "Report blocked due to access denied"
+          }
+        ]
+      },
+      {
+        "agent_id": "D",
+        "label": "Builder Discovery",
+        "state": "COMPLETED",
+        "run_id": "6292d84f-0567-4897-8b72-abddbd3d0904",
+        "streaming_url": "https://ip-18-144-177-171.tetra-data.production.tinyfish.io/tf-753fe58e-7500-43ce-84f6-05c719e32588/stream/0",
+        "video_url": null,
+        "steps": 3,
+        "duration_s": 89.06,
+        "start_url": "https://duckduckgo.com/?q=Surya+Humming+Bird+Surya+official+website",
+        "error": null,
+        "progress": [
+          {
+            "ts": "15:12:19",
+            "purpose": "Visit DuckDuckGo search results for Surya Humming Bird"
+          },
+          {
+            "ts": "15:12:24",
+            "purpose": "Extract organic search results from DuckDuckGo page"
+          },
+          {
+            "ts": "15:13:41",
+            "purpose": "Return 8 organic search results as JSON"
+          }
+        ]
+      },
+      {
+        "agent_id": "B",
+        "label": "Builder Investigator",
+        "state": "COMPLETED",
+        "run_id": "f6d77333-fcec-498b-9a34-1da1d5b0f6db",
+        "streaming_url": "https://ip-54-183-231-98.tetra-data.production.tinyfish.io/tf-965b31e4-48e3-4b40-ae36-5ada8ea57c64/stream/0",
+        "video_url": null,
+        "steps": 19,
+        "duration_s": 2.04,
+        "start_url": "https://suryaprojects.life/",
+        "error": null,
+        "progress": [
+          {
+            "ts": "15:14:00",
+            "purpose": "Visit the main website to find Surya Humming Bird project page"
+          },
+          {
+            "ts": "15:14:12",
+            "purpose": "Check Services dropdown for projects or residential listings"
+          },
+          {
+            "ts": "15:14:16",
+            "purpose": "Click Services to access submenu options"
+          },
+          {
+            "ts": "15:14:22",
+            "purpose": "Understand page layout and find Surya Humming Bird project link"
+          },
+          {
+            "ts": "15:14:29",
+            "purpose": "Click on navigation menu to see all options"
+          },
+          {
+            "ts": "15:14:33",
+            "purpose": "Click the Surya Hummingbird carousel slide to navigate to project page"
+          },
+          {
+            "ts": "15:14:46",
+            "purpose": "Click Services to open submenu and find project links"
+          },
+          {
+            "ts": "15:15:03",
+            "purpose": "Click Real estate link to see project listings"
+          },
+          {
+            "ts": "15:15:06",
+            "purpose": "Visit Real Estate services page to find project listings"
+          },
+          {
+            "ts": "15:15:16",
+            "purpose": "Check if Surya Humming Bird is on this Real Estate page"
+          },
+          {
+            "ts": "15:15:27",
+            "purpose": "Return to homepage to find Surya Humming Bird project link"
+          },
+          {
+            "ts": "15:15:35",
+            "purpose": "Check for Surya Hummingbird link on homepage"
+          },
+          {
+            "ts": "15:15:39",
+            "purpose": "Click carousel section to see if it links to project page"
+          },
+          {
+            "ts": "15:15:43",
+            "purpose": "Check slide 2 of timeline carousel"
+          },
+          {
+            "ts": "15:15:46",
+            "purpose": "Try direct URL for Surya Hummingbird project"
+          },
+          {
+            "ts": "15:15:51",
+            "purpose": "Visit Surya Hummingbird project page directly"
+          },
+          {
+            "ts": "15:15:55",
+            "purpose": "Check if Surya Humming Bird page has content"
+          },
+          {
+            "ts": "15:15:59",
+            "purpose": "Check all available project links on Real Estate page"
+          },
+          {
+            "ts": "15:16:19",
+            "purpose": "Report that Surya Humming Bird project page was not found"
+          }
+        ]
+      },
+      {
+        "agent_id": "R",
+        "label": "Karnataka RERA Investigator",
+        "state": "COMPLETED",
+        "run_id": "ab4eeace-e6e0-44b1-9193-430782ab3e58",
+        "streaming_url": "https://ip-54-215-239-208.tetra-data.production.tinyfish.io/tf-95ffb3f8-752c-4ef1-87e6-5128d23c7822/stream/0",
+        "video_url": null,
+        "steps": 10,
+        "duration_s": 241.95,
+        "start_url": "https://rera.karnataka.gov.in/projectSearch",
+        "error": null,
+        "progress": [
+          {
+            "ts": "15:13:53",
+            "purpose": "Navigate to RERA Karnataka project search page"
+          },
+          {
+            "ts": "15:14:25",
+            "purpose": "Retry navigating to RERA Karnataka project search page"
+          },
+          {
+            "ts": "15:15:01",
+            "purpose": "Click reload button to retry loading the page"
+          },
+          {
+            "ts": "15:16:00",
+            "purpose": "Find RERA Karnataka project search URL"
+          },
+          {
+            "ts": "15:16:02",
+            "purpose": "Try alternative RERA Karnataka project listing page"
+          },
+          {
+            "ts": "15:16:36",
+            "purpose": "Try RERA Karnataka homepage"
+          },
+          {
+            "ts": "15:17:06",
+            "purpose": "Try aurumproptech for Surya Humming Bird RERA details"
+          },
+          {
+            "ts": "15:17:16",
+            "purpose": "Dismiss disclaimer popup to access project details"
+          },
+          {
+            "ts": "15:17:20",
+            "purpose": "Extract Surya Humming Bird RERA project details"
+          },
+          {
+            "ts": "15:17:44",
+            "purpose": "Return Surya Humming Bird RERA details in JSON format"
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "total_seconds": 392.82,
+      "tinyfish_runs": 4,
+      "runs_succeeded": 4,
+      "total_steps": 36,
+      "domains_visited": [
+        "duckduckgo.com",
+        "www.magicbricks.com",
+        "rera.karnataka.gov.in",
+        "suryaprojects.life"
+      ],
+      "fields_compared": 3,
+      "fields_verified": 0,
+      "coverage_pct": 0.0,
+      "manual_baseline_minutes": 45
+    },
+    "summary": "Property Truth Finder cross-checked this listing against official builder disclosures and the Karnataka RERA portal. Key project identity and registration details were analyzed to highlight alignment and unverified marketing claims. Before paying any booking amount, review the checklist below and obtain written confirmation of all dates and carpet areas.",
+    "buyer_checklist": [
+      "Ask the builder for the sanctioned building plan and RERA certificate copy.",
+      "Verify that your specific tower and wing are included in the active RERA phase.",
+      "Obtain a written breakdown of carpet area, built-up area, and the exact loading factor.",
+      "Confirm the legally binding possession date that will be printed in the Agreement for Sale.",
+      "Check whether common amenities are scheduled for delivery with your phase or a future phase.",
+      "Request an encumbrance certificate (EC) from the sub-registrar office for the past 15 years.",
+      "Do not pay any non-refundable booking deposit without a lawyer reviewing the draft sale agreement."
+    ],
+    "limitations_text": "This report compares information published on a listing, a builder website and a RERA portal at the time shown. A successful RERA search does not prove that every detail is true, that the individual seller owns the flat, or that the property is free of legal issues. Not verified does not mean something is wrong, only that we could not confirm it. Before paying any amount, consider independent legal verification of title, approvals and encumbrances. This is an information aid, not legal advice or a guarantee.",
+    "banned_phrase_hits": []
+  },
+  "events": [
+    {
+      "event": "investigation.started",
+      "data": {
+        "id": "0ea7b428",
+        "listing_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+        "mode": "LIVE"
+      },
+      "ts": "15:11:37"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "LISTING",
+        "ts": "15:11:37"
+      },
+      "ts": "15:11:37"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "L",
+        "label": "Listing Extractor",
+        "start_url": "",
+        "ts": "15:11:39"
+      },
+      "ts": "15:11:39"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "L",
+        "run_id": "fbdf9c2d-13e5-44bd-a0c8-b86761041588",
+        "streaming_url": "https://ip-18-144-56-240.tetra-data.production.tinyfish.io/tf-ea709f66-a36d-45d2-b8af-42a735056297/stream/0"
+      },
+      "ts": "15:11:42"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Visit property listing page to extract details",
+        "ts": "15:11:50"
+      },
+      "ts": "15:11:50"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Visit property listing page to extract details",
+        "ts": "15:11:53"
+      },
+      "ts": "15:11:53"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Extract property listing details from page",
+        "ts": "15:11:56"
+      },
+      "ts": "15:11:56"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Report blocked due to access denied",
+        "ts": "15:12:10"
+      },
+      "ts": "15:12:10"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "L",
+        "state": "COMPLETED",
+        "steps": 4,
+        "duration_s": 35.58,
+        "error": null
+      },
+      "ts": "15:12:13"
+    },
+    {
+      "event": "extraction.ready",
+      "data": {
+        "listing": {
+          "project_name": "Surya Humming Bird",
+          "builder_name": "Surya",
+          "locality": "Whitefield",
+          "city": "Bengaluru",
+          "config_bhk": "Residential Unit",
+          "price_text": "",
+          "price_inr": 0.0,
+          "area_value": 0.0,
+          "area_unit": "",
+          "area_type": "",
+          "possession_text": "",
+          "possession_ym": null,
+          "rera_numbers": [],
+          "amenities": [],
+          "listed_by": "",
+          "listing_title": "Surya Humming Bird in Whitefield, Bengaluru",
+          "page_url": "https://www.magicbricks.com/surya-humming-bird-whitefield-bangalore-pdpid-4d4235323431333033",
+          "blocked": true,
+          "blocked_reason": "Access Denied error page was returned when attempting to visit the property listing URL. The page states 'You do not have permission to access the requested URL' and provides reference number 18.2e4e4317.1792230113.12bf8f44. No property listing information is accessible due to this access restriction."
+        }
+      },
+      "ts": "15:12:13"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "DISCOVERY",
+        "ts": "15:12:13"
+      },
+      "ts": "15:12:13"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "D",
+        "label": "Builder Discovery",
+        "start_url": "",
+        "ts": "15:12:15"
+      },
+      "ts": "15:12:15"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "D",
+        "run_id": "6292d84f-0567-4897-8b72-abddbd3d0904",
+        "streaming_url": "https://ip-18-144-177-171.tetra-data.production.tinyfish.io/tf-753fe58e-7500-43ce-84f6-05c719e32588/stream/0"
+      },
+      "ts": "15:12:17"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Visit DuckDuckGo search results for Surya Humming Bird",
+        "ts": "15:12:19"
+      },
+      "ts": "15:12:19"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Extract organic search results from DuckDuckGo page",
+        "ts": "15:12:24"
+      },
+      "ts": "15:12:24"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Return 8 organic search results as JSON",
+        "ts": "15:13:41"
+      },
+      "ts": "15:13:41"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "D",
+        "state": "COMPLETED",
+        "steps": 3,
+        "duration_s": 126.67,
+        "error": null
+      },
+      "ts": "15:13:44"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "INVESTIGATE",
+        "ts": "15:13:44"
+      },
+      "ts": "15:13:44"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "B",
+        "label": "Builder Investigator",
+        "start_url": "",
+        "ts": "15:13:48"
+      },
+      "ts": "15:13:48"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "R",
+        "label": "Karnataka RERA Investigator",
+        "start_url": "",
+        "ts": "15:13:49"
+      },
+      "ts": "15:13:49"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "B",
+        "run_id": "f6d77333-fcec-498b-9a34-1da1d5b0f6db",
+        "streaming_url": "https://ip-54-183-231-98.tetra-data.production.tinyfish.io/tf-965b31e4-48e3-4b40-ae36-5ada8ea57c64/stream/0"
+      },
+      "ts": "15:13:51"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "R",
+        "run_id": "ab4eeace-e6e0-44b1-9193-430782ab3e58",
+        "streaming_url": "https://ip-54-215-239-208.tetra-data.production.tinyfish.io/tf-95ffb3f8-752c-4ef1-87e6-5128d23c7822/stream/0"
+      },
+      "ts": "15:13:52"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Navigate to RERA Karnataka project search page",
+        "ts": "15:13:53"
+      },
+      "ts": "15:13:53"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Visit the main website to find Surya Humming Bird project page",
+        "ts": "15:14:00"
+      },
+      "ts": "15:14:00"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check Services dropdown for projects or residential listings",
+        "ts": "15:14:12"
+      },
+      "ts": "15:14:12"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Click Services to access submenu options",
+        "ts": "15:14:16"
+      },
+      "ts": "15:14:16"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Understand page layout and find Surya Humming Bird project link",
+        "ts": "15:14:22"
+      },
+      "ts": "15:14:22"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Retry navigating to RERA Karnataka project search page",
+        "ts": "15:14:25"
+      },
+      "ts": "15:14:25"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Click on navigation menu to see all options",
+        "ts": "15:14:29"
+      },
+      "ts": "15:14:29"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Click the Surya Hummingbird carousel slide to navigate to project page",
+        "ts": "15:14:33"
+      },
+      "ts": "15:14:33"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Click Services to open submenu and find project links",
+        "ts": "15:14:46"
+      },
+      "ts": "15:14:46"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Click reload button to retry loading the page",
+        "ts": "15:15:01"
+      },
+      "ts": "15:15:01"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Click Real estate link to see project listings",
+        "ts": "15:15:03"
+      },
+      "ts": "15:15:03"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Visit Real Estate services page to find project listings",
+        "ts": "15:15:06"
+      },
+      "ts": "15:15:06"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check if Surya Humming Bird is on this Real Estate page",
+        "ts": "15:15:16"
+      },
+      "ts": "15:15:16"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Return to homepage to find Surya Humming Bird project link",
+        "ts": "15:15:27"
+      },
+      "ts": "15:15:27"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check for Surya Hummingbird link on homepage",
+        "ts": "15:15:35"
+      },
+      "ts": "15:15:35"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Click carousel section to see if it links to project page",
+        "ts": "15:15:39"
+      },
+      "ts": "15:15:39"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check slide 2 of timeline carousel",
+        "ts": "15:15:43"
+      },
+      "ts": "15:15:43"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Try direct URL for Surya Hummingbird project",
+        "ts": "15:15:46"
+      },
+      "ts": "15:15:46"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Visit Surya Hummingbird project page directly",
+        "ts": "15:15:51"
+      },
+      "ts": "15:15:51"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check if Surya Humming Bird page has content",
+        "ts": "15:15:55"
+      },
+      "ts": "15:15:55"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Check all available project links on Real Estate page",
+        "ts": "15:15:59"
+      },
+      "ts": "15:15:59"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Find RERA Karnataka project search URL",
+        "ts": "15:16:00"
+      },
+      "ts": "15:16:00"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try alternative RERA Karnataka project listing page",
+        "ts": "15:16:02"
+      },
+      "ts": "15:16:02"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Report that Surya Humming Bird project page was not found",
+        "ts": "15:16:19"
+      },
+      "ts": "15:16:19"
+    },
+    {
+      "event": "agent.retry",
+      "data": {
+        "agent_id": "B",
+        "reason": "SITE_BLOCKED_ESCALATE_STEALTH",
+        "attempt": 1
+      },
+      "ts": "15:16:25"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "B",
+        "state": "COMPLETED",
+        "steps": 19,
+        "duration_s": 289.11,
+        "error": null
+      },
+      "ts": "15:16:27"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try RERA Karnataka homepage",
+        "ts": "15:16:36"
+      },
+      "ts": "15:16:36"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Try aurumproptech for Surya Humming Bird RERA details",
+        "ts": "15:17:06"
+      },
+      "ts": "15:17:06"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Dismiss disclaimer popup to access project details",
+        "ts": "15:17:16"
+      },
+      "ts": "15:17:16"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Extract Surya Humming Bird RERA project details",
+        "ts": "15:17:20"
+      },
+      "ts": "15:17:20"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Return Surya Humming Bird RERA details in JSON format",
+        "ts": "15:17:44"
+      },
+      "ts": "15:17:44"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "R",
+        "state": "COMPLETED",
+        "steps": 10,
+        "duration_s": 371.48,
+        "error": null
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "COMPARE",
+        "ts": "15:17:49"
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "A",
+          "title": "RERA Registration & Promoter Check",
+          "status": "NOT_VERIFIED",
+          "reason_code": "NO_RERA_IN_LISTING",
+          "attention": "HIGH",
+          "headline": "No RERA registration number listed on the property advertisement.",
+          "explanation": "The listing [E3] does not state a RERA registration number. Under Karnataka RERA regulations, all ongoing and new residential projects must display a valid registration ID.",
+          "rows": [
+            {
+              "field": "RERA Registration No.",
+              "listing_value": "Not provided in listing",
+              "builder_value": "Not checked",
+              "rera_value": "Search not possible without number or name",
+              "verdict": "NOT_VERIFIED",
+              "note": "No RERA number in listing advertisement",
+              "evidence_ids": [
+                "E3"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E3"
+          ],
+          "buyer_questions": [
+            "What is the exact Karnataka RERA registration number for this phase and tower?",
+            "Can you provide a copy of the official RERA registration certificate?"
+          ]
+        }
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "B",
+          "title": "Builder & Project Identity",
+          "status": "NOT_VERIFIED",
+          "reason_code": "BUILDER_SITE_NOT_FOUND",
+          "attention": "ATTENTION",
+          "headline": "Builder official project website could not be identified or accessed.",
+          "explanation": "TinyFish web agent was unable to find or access an official project webpage for 'Surya Humming Bird' on the builder's verified domain.",
+          "rows": [
+            {
+              "field": "Builder Project Page",
+              "listing_value": "Surya Humming Bird",
+              "builder_value": "Not found on official domain",
+              "rera_value": "Surya Humming Bird",
+              "verdict": "NOT_VERIFIED",
+              "note": "Official builder URL not discovered or accessible",
+              "evidence_ids": [
+                "E1"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E1",
+            "E2"
+          ],
+          "buyer_questions": [
+            "What is the official builder website URL for this project?",
+            "Can you provide the official brochure downloaded directly from the builder's portal?"
+          ]
+        }
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "C",
+          "title": "Amenities & Project Claims",
+          "status": "NOT_VERIFIED",
+          "reason_code": "FIELD_MISSING_IN_SOURCE",
+          "attention": "INFO",
+          "headline": "No specific amenities were itemized in the listing advertisement.",
+          "explanation": "The listing page did not detail individual amenities to cross-reference.",
+          "rows": [],
+          "evidence_ids": [],
+          "buyer_questions": [
+            "What amenities are contractually promised in the agreement for sale?"
+          ]
+        }
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "D",
+          "title": "Price, Area & Possession Date",
+          "status": "NOT_VERIFIED",
+          "reason_code": "NOT_COMPARABLE_MEASURE",
+          "attention": "INFO",
+          "headline": "Area metrics or timelines could not be directly reconciled.",
+          "explanation": "Listing advertises super built-up area while official filings mandate carpet area. Because these measure different boundaries, they cannot be equated without the builder's loading factor.",
+          "rows": [
+            {
+              "field": "Possession / Completion Date",
+              "listing_value": "Not stated",
+              "builder_value": "",
+              "rera_value": "31-12-2025",
+              "verdict": "NOT_VERIFIED",
+              "note": "Possession dates not directly comparable or missing in one source",
+              "evidence_ids": [
+                "E6"
+              ]
+            },
+            {
+              "field": "Area (Measurement Type)",
+              "listing_value": "(unknown)",
+              "builder_value": "N/A",
+              "rera_value": "9527 Sq Mtr (total)",
+              "verdict": "NOT_VERIFIED",
+              "note": "Different area measurement types (super built-up vs carpet)",
+              "evidence_ids": [
+                "E5"
+              ]
+            },
+            {
+              "field": "Pricing & Base Rate",
+              "listing_value": "N/A",
+              "builder_value": "N/A",
+              "rera_value": "Not recorded on RERA",
+              "verdict": "NOT_VERIFIED",
+              "note": "Price details not fully quantified across both sources",
+              "evidence_ids": [
+                "E4"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E4",
+            "E5",
+            "E6",
+            "E7"
+          ],
+          "buyer_questions": [
+            "What is the exact carpet area in square meters and square feet for this unit?",
+            "What percentage loading factor is applied to calculate the super built-up area?"
+          ]
+        }
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "REPORT",
+        "ts": "15:17:49"
+      },
+      "ts": "15:17:49"
+    },
+    {
+      "event": "report.ready",
+      "data": {
+        "report_id": "0ea7b428"
+      },
+      "ts": "15:18:10"
+    }
+  ]
+}

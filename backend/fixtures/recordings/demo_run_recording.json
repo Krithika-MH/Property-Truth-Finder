@@ -1,0 +1,1375 @@
+{
+  "report": {
+    "id": "demo-run-real-1",
+    "created_at": "2026-10-17T08:12:45.982429+00:00",
+    "listing_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+    "mode": "MOCK",
+    "listing": {
+      "project_name": "Brigade Cosmopolis",
+      "builder_name": "Brigade Enterprises",
+      "locality": "Whitefield",
+      "city": "Bangalore",
+      "config_bhk": "2 BHK",
+      "price_text": "Rs 1.25 Cr",
+      "price_inr": 12500000.0,
+      "area_value": 1150.0,
+      "area_unit": "sq ft",
+      "area_type": "super built-up",
+      "possession_text": "Dec 2027",
+      "possession_ym": null,
+      "rera_numbers": [
+        "PRM/KA/RERA/1251/446/PR/171015/000456"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Gymnasium",
+        "Clubhouse",
+        "Children Play Area",
+        "24x7 Security",
+        "Power Backup",
+        "Lift"
+      ],
+      "listed_by": "Agent",
+      "listing_title": "2 BHK 1150 Sq-ft Multistorey Apartment for Sale in Brigade Cosmopolis, Whitefield, Bangalore",
+      "page_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+      "blocked": false,
+      "blocked_reason": null
+    },
+    "builder_site_url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+    "findings": [
+      {
+        "check_id": "A",
+        "title": "RERA Registration & Promoter Check",
+        "status": "MATCHED",
+        "reason_code": null,
+        "attention": "INFO",
+        "headline": "RERA record confirmed for PRM/KA/RERA/1251/446/PR/171015/000456.",
+        "explanation": "The RERA record [E7] lists the project as registered under Karnataka RERA, which agrees with the listing. This confirms the project is registered, but does not prove unit ownership or clear legal title.",
+        "rows": [
+          {
+            "field": "Registration Number",
+            "listing_value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+            "builder_value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+            "rera_value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+            "verdict": "MATCHED",
+            "note": "Exact normalized registration number match",
+            "evidence_ids": [
+              "E3",
+              "E7"
+            ]
+          },
+          {
+            "field": "Project Name (RERA)",
+            "listing_value": "Brigade Cosmopolis",
+            "builder_value": "Brigade Cosmopolis",
+            "rera_value": "Brigade Cosmopolis Phase 1",
+            "verdict": "MATCHED",
+            "note": "Name fuzzy match score 100/100",
+            "evidence_ids": [
+              "E1",
+              "E8"
+            ]
+          },
+          {
+            "field": "Promoter / Developer",
+            "listing_value": "Brigade Enterprises",
+            "builder_value": "Brigade Enterprises Limited",
+            "rera_value": "Brigade Enterprises Limited",
+            "verdict": "MATCHED",
+            "note": "Promoter fuzzy match score 100/100",
+            "evidence_ids": [
+              "E2",
+              "E9"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E3",
+          "E7",
+          "E8",
+          "E9"
+        ],
+        "buyer_questions": [
+          "Is the unit I am looking at located in the exact sanctioned phase and block described in the RERA filing?",
+          "Are there any open citizen complaints or notices against this RERA registration?"
+        ]
+      },
+      {
+        "check_id": "B",
+        "title": "Builder & Project Identity",
+        "status": "MATCHED",
+        "reason_code": null,
+        "attention": "INFO",
+        "headline": "Builder website confirms project name and developer entity.",
+        "explanation": "The official builder website details agree with the listing name and location. Review the registered promoter entity on your sale contract.",
+        "rows": [
+          {
+            "field": "Project Name",
+            "listing_value": "Brigade Cosmopolis",
+            "builder_value": "Brigade Cosmopolis",
+            "rera_value": "Brigade Cosmopolis Phase 1",
+            "verdict": "MATCHED",
+            "note": "Name fuzzy match 100/100",
+            "evidence_ids": [
+              "E1",
+              "E10"
+            ]
+          },
+          {
+            "field": "Developer Entity",
+            "listing_value": "Brigade Enterprises",
+            "builder_value": "Brigade Enterprises Limited",
+            "rera_value": "Brigade Enterprises Limited",
+            "verdict": "MATCHED",
+            "note": "Developer score 100/100",
+            "evidence_ids": [
+              "E2",
+              "E11"
+            ]
+          },
+          {
+            "field": "Location / Locality",
+            "listing_value": "Whitefield, Bangalore",
+            "builder_value": "Whitefield, Bengaluru, Karnataka",
+            "rera_value": "Whitefield, Bengaluru Urban, Karnataka",
+            "verdict": "MATCHED",
+            "note": "Location verified across sources",
+            "evidence_ids": [
+              "E12"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E10",
+          "E11",
+          "E12"
+        ],
+        "buyer_questions": [
+          "Does the sale contract directly name the developer entity listed on the official website?",
+          "Are there any subsidiary companies involved in execution or land ownership?"
+        ]
+      },
+      {
+        "check_id": "C",
+        "title": "Amenities & Project Claims",
+        "status": "MATCHED",
+        "reason_code": null,
+        "attention": "INFO",
+        "headline": "Advertised amenities are supported by official builder claims.",
+        "explanation": "Advertised amenities are listed on the builder's official portal. Note: this confirms the builder states them, not that they are fully built or operational.",
+        "rows": [
+          {
+            "field": "Swimming Pool",
+            "listing_value": "Advertised",
+            "builder_value": "Listed by Builder",
+            "rera_value": "N/A",
+            "verdict": "MATCHED",
+            "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+            "evidence_ids": [
+              "E13"
+            ]
+          },
+          {
+            "field": "Gymnasium",
+            "listing_value": "Advertised",
+            "builder_value": "Listed by Builder",
+            "rera_value": "N/A",
+            "verdict": "MATCHED",
+            "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+            "evidence_ids": [
+              "E13"
+            ]
+          },
+          {
+            "field": "Clubhouse",
+            "listing_value": "Advertised",
+            "builder_value": "Listed by Builder",
+            "rera_value": "N/A",
+            "verdict": "MATCHED",
+            "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+            "evidence_ids": [
+              "E13"
+            ]
+          },
+          {
+            "field": "Children Play Area",
+            "listing_value": "Advertised",
+            "builder_value": "Listed by Builder",
+            "rera_value": "N/A",
+            "verdict": "MATCHED",
+            "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+            "evidence_ids": [
+              "E13"
+            ]
+          },
+          {
+            "field": "24x7 Security",
+            "listing_value": "Advertised",
+            "builder_value": "Not found on project page",
+            "rera_value": "N/A",
+            "verdict": "NOT_VERIFIED",
+            "note": "Not listed on builder project page (NOT_LISTED_BY_BUILDER)",
+            "evidence_ids": [
+              "E13"
+            ]
+          },
+          {
+            "field": "Power Backup",
+            "listing_value": "Advertised",
+            "builder_value": "Listed by Builder",
+            "rera_value": "N/A",
+            "verdict": "MATCHED",
+            "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+            "evidence_ids": [
+              "E13"
+            ]
+          },
+          {
+            "field": "Lift",
+            "listing_value": "Advertised",
+            "builder_value": "Listed by Builder",
+            "rera_value": "N/A",
+            "verdict": "MATCHED",
+            "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+            "evidence_ids": [
+              "E13"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E13"
+        ],
+        "buyer_questions": [
+          "What is the completion timeline for each common amenity in this tower's phase?",
+          "Will residents have access to amenities during subsequent phase construction?"
+        ]
+      },
+      {
+        "check_id": "D",
+        "title": "Price, Area & Possession Date",
+        "status": "MATCHED",
+        "reason_code": "NOT_COMPARABLE_MEASURE",
+        "attention": "INFO",
+        "headline": "Area measures differ: Super Built-up vs Carpet area.",
+        "explanation": "The listing gives super built-up area while official filings mandate carpet area. These measure different things and are not directly comparable. Ask for the carpet area and the loading factor.",
+        "rows": [
+          {
+            "field": "Possession / Completion Date",
+            "listing_value": "Dec 2027",
+            "builder_value": "Possession: Dec 2027",
+            "rera_value": "31-12-2027",
+            "verdict": "MATCHED",
+            "note": "Dates align within 0 month(s)",
+            "evidence_ids": [
+              "E6"
+            ]
+          },
+          {
+            "field": "Area (Measurement Type)",
+            "listing_value": "1150.0 sq ft (super built-up)",
+            "builder_value": "1150.0 sq ft (super built-up)",
+            "rera_value": "67.5 sq.m carpet",
+            "verdict": "NOT_VERIFIED",
+            "note": "Listing gives 1150.0 sq ft super built-up, whereas RERA records carpet area (726.6 sq ft). These measure different boundaries; ask builder for loading factor.",
+            "evidence_ids": [
+              "E5"
+            ]
+          },
+          {
+            "field": "Pricing & Base Rate",
+            "listing_value": "Rs 1.25 Cr",
+            "builder_value": "From Rs 122.0 L",
+            "rera_value": "Not recorded on RERA",
+            "verdict": "MATCHED",
+            "note": "Starting price comparison (builder starting price is a baseline)",
+            "evidence_ids": [
+              "E4"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E14"
+        ],
+        "buyer_questions": [
+          "Can you provide a detailed cost sheet breaking down floor rise, car parking, and club charges?",
+          "What is the exact carpet area in sq ft defined in the sale agreement?"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Project Name",
+        "value": "Brigade Cosmopolis",
+        "agent_id": "mock-run-l-59449",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E2",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Builder Name",
+        "value": "Brigade Enterprises",
+        "agent_id": "mock-run-l-59449",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E3",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "RERA Number",
+        "value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+        "agent_id": "mock-run-l-59449",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E4",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Price",
+        "value": "Rs 1.25 Cr",
+        "agent_id": "mock-run-l-59449",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E5",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Area",
+        "value": "1150.0 sq ft (super built-up)",
+        "agent_id": "mock-run-l-59449",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E6",
+        "source_type": "LISTING",
+        "source_name": "Listing Portal",
+        "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Possession Date",
+        "value": "Dec 2027",
+        "agent_id": "mock-run-l-59449",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E7",
+        "source_type": "RERA",
+        "source_name": "Karnataka RERA",
+        "url": "https://rera.karnataka.gov.in/projectDetails?regNo=PRM/KA/RERA/1251/446/PR/171015/000456",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Registration No.",
+        "value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+        "agent_id": "mock-run-r-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E8",
+        "source_type": "RERA",
+        "source_name": "Karnataka RERA",
+        "url": "https://rera.karnataka.gov.in/projectDetails?regNo=PRM/KA/RERA/1251/446/PR/171015/000456",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Project Name",
+        "value": "Brigade Cosmopolis Phase 1",
+        "agent_id": "mock-run-r-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E9",
+        "source_type": "RERA",
+        "source_name": "Karnataka RERA",
+        "url": "https://rera.karnataka.gov.in/projectDetails?regNo=PRM/KA/RERA/1251/446/PR/171015/000456",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Promoter Name",
+        "value": "Brigade Enterprises Limited",
+        "agent_id": "mock-run-r-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E10",
+        "source_type": "BUILDER",
+        "source_name": "Builder Website",
+        "url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Project Name",
+        "value": "Brigade Cosmopolis",
+        "agent_id": "mock-run-b-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E11",
+        "source_type": "BUILDER",
+        "source_name": "Builder Website",
+        "url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Developer Name",
+        "value": "Brigade Enterprises Limited",
+        "agent_id": "mock-run-b-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E12",
+        "source_type": "BUILDER",
+        "source_name": "Builder Website",
+        "url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Location",
+        "value": "Whitefield, Bengaluru, Karnataka",
+        "agent_id": "mock-run-b-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E13",
+        "source_type": "BUILDER",
+        "source_name": "Builder Website",
+        "url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Amenities List",
+        "value": "7 items",
+        "agent_id": "mock-run-b-63481",
+        "run_id": null,
+        "note": null
+      },
+      {
+        "id": "E14",
+        "source_type": "RERA",
+        "source_name": "Karnataka RERA",
+        "url": "https://rera.karnataka.gov.in/projectDetails?regNo=PRM/KA/RERA/1251/446/PR/171015/000456",
+        "retrieved_at": "2026-10-17T13:42:45+05:30",
+        "field": "Proposed Completion",
+        "value": "31-12-2027",
+        "agent_id": "mock-run-r-63481",
+        "run_id": null,
+        "note": null
+      }
+    ],
+    "agents": [
+      {
+        "agent_id": "L",
+        "label": "Listing Extractor",
+        "state": "COMPLETED",
+        "run_id": "mock-run-l-59449",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-l-59449",
+        "video_url": null,
+        "steps": 9,
+        "duration_s": 2.4,
+        "start_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "error": null,
+        "progress": [
+          {
+            "ts": "13:42:39",
+            "purpose": "Navigating to listing page: https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft..."
+          },
+          {
+            "ts": "13:42:40",
+            "purpose": "Accepting cookies and dismissing banners"
+          },
+          {
+            "ts": "13:42:40",
+            "purpose": "Expanding 'More details' and 'Project specifications'"
+          },
+          {
+            "ts": "13:42:40",
+            "purpose": "Extracting property title, builder name, and price"
+          },
+          {
+            "ts": "13:42:41",
+            "purpose": "Reading carpet/built-up area, BHK configuration and possession date"
+          },
+          {
+            "ts": "13:42:41",
+            "purpose": "Searching page content for Karnataka RERA registration numbers"
+          },
+          {
+            "ts": "13:42:41",
+            "purpose": "Parsing advertised amenity checklist"
+          }
+        ]
+      },
+      {
+        "agent_id": "D",
+        "label": "Builder Discovery",
+        "state": "COMPLETED",
+        "run_id": "mock-run-d-61938",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-d-61938",
+        "video_url": null,
+        "steps": 6,
+        "duration_s": 1.5,
+        "start_url": "https://duckduckgo.com/?q=Brigade+Cosmopolis+Brigade+Enterprises+official+website",
+        "error": null,
+        "progress": [
+          {
+            "ts": "13:42:42",
+            "purpose": "Searching official builder web presence on DuckDuckGo"
+          },
+          {
+            "ts": "13:42:42",
+            "purpose": "Analyzing organic search ranking results"
+          },
+          {
+            "ts": "13:42:42",
+            "purpose": "Filtering out property aggregator domains (Magicbricks, 99acres)"
+          },
+          {
+            "ts": "13:42:43",
+            "purpose": "Scoring builder domain candidate URLs"
+          }
+        ]
+      },
+      {
+        "agent_id": "B",
+        "label": "Builder Investigator",
+        "state": "COMPLETED",
+        "run_id": "mock-run-b-63481",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-b-63481",
+        "video_url": null,
+        "steps": 9,
+        "duration_s": 2.4,
+        "start_url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+        "error": null,
+        "progress": [
+          {
+            "ts": "13:42:43",
+            "purpose": "Opening official builder portal: https://www.brigadegroup.com/residential/project/brigade-cos..."
+          },
+          {
+            "ts": "13:42:44",
+            "purpose": "Navigating residential project catalog"
+          },
+          {
+            "ts": "13:42:44",
+            "purpose": "Locating specific project landing page"
+          },
+          {
+            "ts": "13:42:44",
+            "purpose": "Extracting developer legal entity and verified project location"
+          },
+          {
+            "ts": "13:42:45",
+            "purpose": "Reading floor plans, super built-up specs, and starting prices"
+          },
+          {
+            "ts": "13:42:45",
+            "purpose": "Cataloging builder amenity status (available vs planned)"
+          },
+          {
+            "ts": "13:42:45",
+            "purpose": "Extracting builder-declared RERA registration number"
+          }
+        ]
+      },
+      {
+        "agent_id": "R",
+        "label": "Karnataka RERA Investigator",
+        "state": "COMPLETED",
+        "run_id": "mock-run-r-63481",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-r-63481",
+        "video_url": null,
+        "steps": 8,
+        "duration_s": 2.1,
+        "start_url": "https://rera.karnataka.gov.in",
+        "error": null,
+        "progress": [
+          {
+            "ts": "13:42:43",
+            "purpose": "Connecting to Karnataka RERA portal (rera.karnataka.gov.in)"
+          },
+          {
+            "ts": "13:42:44",
+            "purpose": "Navigating to Services > Registered Projects Search"
+          },
+          {
+            "ts": "13:42:44",
+            "purpose": "Entering registration number / project name into portal search"
+          },
+          {
+            "ts": "13:42:44",
+            "purpose": "Parsing project record detail modal"
+          },
+          {
+            "ts": "13:42:45",
+            "purpose": "Extracting promoter name, sanctioned completion date, and carpet area schedule"
+          },
+          {
+            "ts": "13:42:45",
+            "purpose": "Verifying project approval status and registration timestamp"
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "total_seconds": 6.53,
+      "tinyfish_runs": 4,
+      "runs_succeeded": 4,
+      "total_steps": 32,
+      "domains_visited": [
+        "duckduckgo.com",
+        "www.brigadegroup.com",
+        "rera.karnataka.gov.in",
+        "www.magicbricks.com"
+      ],
+      "fields_compared": 16,
+      "fields_verified": 14,
+      "coverage_pct": 87.5,
+      "manual_baseline_minutes": 45
+    },
+    "summary": "Property Truth Finder cross-checked this listing against official builder disclosures and the Karnataka RERA portal. Key project identity and registration details were analyzed to highlight alignment and unverified marketing claims. Before paying any booking amount, review the checklist below and obtain written confirmation of all dates and carpet areas.",
+    "buyer_checklist": [
+      "Ask the builder for the sanctioned building plan and RERA certificate copy.",
+      "Verify that your specific tower and wing are included in the active RERA phase.",
+      "Obtain a written breakdown of carpet area, built-up area, and the exact loading factor.",
+      "Confirm the legally binding possession date that will be printed in the Agreement for Sale.",
+      "Check whether common amenities are scheduled for delivery with your phase or a future phase.",
+      "Request an encumbrance certificate (EC) from the sub-registrar office for the past 15 years.",
+      "Do not pay any non-refundable booking deposit without a lawyer reviewing the draft sale agreement."
+    ],
+    "limitations_text": "This report compares information published on a listing, a builder website and a RERA portal at the time shown. A successful RERA search does not prove that every detail is true, that the individual seller owns the flat, or that the property is free of legal issues. Not verified does not mean something is wrong, only that we could not confirm it. Before paying any amount, consider independent legal verification of title, approvals and encumbrances. This is an information aid, not legal advice or a guarantee.",
+    "banned_phrase_hits": []
+  },
+  "events": [
+    {
+      "event": "investigation.started",
+      "data": {
+        "id": "demo-run-real-1",
+        "listing_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "mode": "MOCK"
+      },
+      "ts": "13:42:39"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "LISTING",
+        "ts": "13:42:39"
+      },
+      "ts": "13:42:39"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "L",
+        "label": "Listing Extractor",
+        "start_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+        "ts": "13:42:39"
+      },
+      "ts": "13:42:39"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "L",
+        "run_id": "mock-run-l-59449",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-l-59449"
+      },
+      "ts": "13:42:39"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Navigating to listing page: https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft...",
+        "ts": "13:42:39"
+      },
+      "ts": "13:42:39"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Accepting cookies and dismissing banners",
+        "ts": "13:42:40"
+      },
+      "ts": "13:42:40"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Expanding 'More details' and 'Project specifications'",
+        "ts": "13:42:40"
+      },
+      "ts": "13:42:40"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Extracting property title, builder name, and price",
+        "ts": "13:42:40"
+      },
+      "ts": "13:42:40"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Reading carpet/built-up area, BHK configuration and possession date",
+        "ts": "13:42:41"
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Searching page content for Karnataka RERA registration numbers",
+        "ts": "13:42:41"
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "L",
+        "purpose": "Parsing advertised amenity checklist",
+        "ts": "13:42:41"
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "L",
+        "state": "COMPLETED",
+        "steps": 7,
+        "duration_s": 2.49,
+        "error": null
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "extraction.ready",
+      "data": {
+        "listing": {
+          "project_name": "Brigade Cosmopolis",
+          "builder_name": "Brigade Enterprises",
+          "locality": "Whitefield",
+          "city": "Bangalore",
+          "config_bhk": "2 BHK",
+          "price_text": "Rs 1.25 Cr",
+          "price_inr": 12500000.0,
+          "area_value": 1150.0,
+          "area_unit": "sq ft",
+          "area_type": "super built-up",
+          "possession_text": "Dec 2027",
+          "possession_ym": null,
+          "rera_numbers": [
+            "PRM/KA/RERA/1251/446/PR/171015/000456"
+          ],
+          "amenities": [
+            "Swimming Pool",
+            "Gymnasium",
+            "Clubhouse",
+            "Children Play Area",
+            "24x7 Security",
+            "Power Backup",
+            "Lift"
+          ],
+          "listed_by": "Agent",
+          "listing_title": "2 BHK 1150 Sq-ft Multistorey Apartment for Sale in Brigade Cosmopolis, Whitefield, Bangalore",
+          "page_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sq-ft-Multistorey-Apartment-FOR-Sale-Whitefield-in-Bangalore&id=4d4235333633393139",
+          "blocked": false,
+          "blocked_reason": null
+        }
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "DISCOVERY",
+        "ts": "13:42:41"
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "D",
+        "label": "Builder Discovery",
+        "start_url": "https://duckduckgo.com/?q=Brigade+Cosmopolis+Brigade+Enterprises+official+website",
+        "ts": "13:42:41"
+      },
+      "ts": "13:42:41"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "D",
+        "run_id": "mock-run-d-61938",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-d-61938"
+      },
+      "ts": "13:42:42"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Searching official builder web presence on DuckDuckGo",
+        "ts": "13:42:42"
+      },
+      "ts": "13:42:42"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Analyzing organic search ranking results",
+        "ts": "13:42:42"
+      },
+      "ts": "13:42:42"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Filtering out property aggregator domains (Magicbricks, 99acres)",
+        "ts": "13:42:42"
+      },
+      "ts": "13:42:42"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "D",
+        "purpose": "Scoring builder domain candidate URLs",
+        "ts": "13:42:43"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "D",
+        "state": "COMPLETED",
+        "steps": 4,
+        "duration_s": 4.03,
+        "error": null
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "INVESTIGATE",
+        "ts": "13:42:43"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "B",
+        "label": "Builder Investigator",
+        "start_url": "https://www.brigadegroup.com/residential/project/brigade-cosmopolis",
+        "ts": "13:42:43"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.started",
+      "data": {
+        "agent_id": "R",
+        "label": "Karnataka RERA Investigator",
+        "start_url": "https://rera.karnataka.gov.in",
+        "ts": "13:42:43"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "B",
+        "run_id": "mock-run-b-63481",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-b-63481"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.streaming_url",
+      "data": {
+        "agent_id": "R",
+        "run_id": "mock-run-r-63481",
+        "streaming_url": "https://mock-agent.tinyfish.ai/stream/mock-run-r-63481"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Opening official builder portal: https://www.brigadegroup.com/residential/project/brigade-cos...",
+        "ts": "13:42:43"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Connecting to Karnataka RERA portal (rera.karnataka.gov.in)",
+        "ts": "13:42:43"
+      },
+      "ts": "13:42:43"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Navigating residential project catalog",
+        "ts": "13:42:44"
+      },
+      "ts": "13:42:44"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Navigating to Services > Registered Projects Search",
+        "ts": "13:42:44"
+      },
+      "ts": "13:42:44"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Locating specific project landing page",
+        "ts": "13:42:44"
+      },
+      "ts": "13:42:44"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Entering registration number / project name into portal search",
+        "ts": "13:42:44"
+      },
+      "ts": "13:42:44"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Extracting developer legal entity and verified project location",
+        "ts": "13:42:44"
+      },
+      "ts": "13:42:44"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Parsing project record detail modal",
+        "ts": "13:42:44"
+      },
+      "ts": "13:42:44"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Reading floor plans, super built-up specs, and starting prices",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Extracting promoter name, sanctioned completion date, and carpet area schedule",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Cataloging builder amenity status (available vs planned)",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "R",
+        "purpose": "Verifying project approval status and registration timestamp",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "agent.progress",
+      "data": {
+        "agent_id": "B",
+        "purpose": "Extracting builder-declared RERA registration number",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "R",
+        "state": "COMPLETED",
+        "steps": 6,
+        "duration_s": 6.22,
+        "error": null
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "agent.completed",
+      "data": {
+        "agent_id": "B",
+        "state": "COMPLETED",
+        "steps": 7,
+        "duration_s": 6.53,
+        "error": null
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "COMPARE",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "A",
+          "title": "RERA Registration & Promoter Check",
+          "status": "MATCHED",
+          "reason_code": null,
+          "attention": "INFO",
+          "headline": "Project registered with Karnataka RERA (PRM/KA/RERA/1251/446/PR/171015/000456).",
+          "explanation": "The RERA record [E7] for PRM/KA/RERA/1251/446/PR/171015/000456 lists 'Brigade Cosmopolis Phase 1' [E8] by promoter 'Brigade Enterprises Limited' [E9], which agrees with the listing [E1]. This confirms registration, but does not prove unit ownership or clear legal title.",
+          "rows": [
+            {
+              "field": "Registration Number",
+              "listing_value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+              "builder_value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+              "rera_value": "PRM/KA/RERA/1251/446/PR/171015/000456",
+              "verdict": "MATCHED",
+              "note": "Exact normalized registration number match",
+              "evidence_ids": [
+                "E3",
+                "E7"
+              ]
+            },
+            {
+              "field": "Project Name (RERA)",
+              "listing_value": "Brigade Cosmopolis",
+              "builder_value": "Brigade Cosmopolis",
+              "rera_value": "Brigade Cosmopolis Phase 1",
+              "verdict": "MATCHED",
+              "note": "Name fuzzy match score 100/100",
+              "evidence_ids": [
+                "E1",
+                "E8"
+              ]
+            },
+            {
+              "field": "Promoter / Developer",
+              "listing_value": "Brigade Enterprises",
+              "builder_value": "Brigade Enterprises Limited",
+              "rera_value": "Brigade Enterprises Limited",
+              "verdict": "MATCHED",
+              "note": "Promoter fuzzy match score 100/100",
+              "evidence_ids": [
+                "E2",
+                "E9"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E3",
+            "E7",
+            "E8",
+            "E9"
+          ],
+          "buyer_questions": [
+            "Is the unit I am looking at located in the exact sanctioned phase and block described in the RERA filing?",
+            "Are there any open citizen complaints or notices against this RERA registration?"
+          ]
+        }
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "B",
+          "title": "Builder & Project Identity",
+          "status": "MATCHED",
+          "reason_code": null,
+          "attention": "INFO",
+          "headline": "Builder website confirms project identity: 'Brigade Cosmopolis'.",
+          "explanation": "The builder's official website [E10] lists 'Brigade Cosmopolis' under developer 'Brigade Enterprises Limited' [E11], agreeing with the listing description [E1].",
+          "rows": [
+            {
+              "field": "Project Name",
+              "listing_value": "Brigade Cosmopolis",
+              "builder_value": "Brigade Cosmopolis",
+              "rera_value": "Brigade Cosmopolis Phase 1",
+              "verdict": "MATCHED",
+              "note": "Name fuzzy match 100/100",
+              "evidence_ids": [
+                "E1",
+                "E10"
+              ]
+            },
+            {
+              "field": "Developer Entity",
+              "listing_value": "Brigade Enterprises",
+              "builder_value": "Brigade Enterprises Limited",
+              "rera_value": "Brigade Enterprises Limited",
+              "verdict": "MATCHED",
+              "note": "Developer score 100/100",
+              "evidence_ids": [
+                "E2",
+                "E11"
+              ]
+            },
+            {
+              "field": "Location / Locality",
+              "listing_value": "Whitefield, Bangalore",
+              "builder_value": "Whitefield, Bengaluru, Karnataka",
+              "rera_value": "Whitefield, Bengaluru Urban, Karnataka",
+              "verdict": "MATCHED",
+              "note": "Location verified across sources",
+              "evidence_ids": [
+                "E12"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E1",
+            "E2",
+            "E10",
+            "E11",
+            "E12"
+          ],
+          "buyer_questions": [
+            "Does the sale contract directly name the developer entity listed on the official website?",
+            "Are there any subsidiary companies involved in execution or land ownership?"
+          ]
+        }
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "C",
+          "title": "Amenities & Project Claims",
+          "status": "MATCHED",
+          "reason_code": null,
+          "attention": "INFO",
+          "headline": "6 of 7 advertised amenities supported by builder claims.",
+          "explanation": "Official builder page [E13] confirms 6 of 7 amenities. Note: this confirms the builder advertises them, not that construction is complete.",
+          "rows": [
+            {
+              "field": "Swimming Pool",
+              "listing_value": "Advertised",
+              "builder_value": "Listed by Builder",
+              "rera_value": "N/A",
+              "verdict": "MATCHED",
+              "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+              "evidence_ids": [
+                "E13"
+              ]
+            },
+            {
+              "field": "Gymnasium",
+              "listing_value": "Advertised",
+              "builder_value": "Listed by Builder",
+              "rera_value": "N/A",
+              "verdict": "MATCHED",
+              "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+              "evidence_ids": [
+                "E13"
+              ]
+            },
+            {
+              "field": "Clubhouse",
+              "listing_value": "Advertised",
+              "builder_value": "Listed by Builder",
+              "rera_value": "N/A",
+              "verdict": "MATCHED",
+              "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+              "evidence_ids": [
+                "E13"
+              ]
+            },
+            {
+              "field": "Children Play Area",
+              "listing_value": "Advertised",
+              "builder_value": "Listed by Builder",
+              "rera_value": "N/A",
+              "verdict": "MATCHED",
+              "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+              "evidence_ids": [
+                "E13"
+              ]
+            },
+            {
+              "field": "24x7 Security",
+              "listing_value": "Advertised",
+              "builder_value": "Not found on project page",
+              "rera_value": "N/A",
+              "verdict": "NOT_VERIFIED",
+              "note": "Not listed on builder project page (NOT_LISTED_BY_BUILDER)",
+              "evidence_ids": [
+                "E13"
+              ]
+            },
+            {
+              "field": "Power Backup",
+              "listing_value": "Advertised",
+              "builder_value": "Listed by Builder",
+              "rera_value": "N/A",
+              "verdict": "MATCHED",
+              "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+              "evidence_ids": [
+                "E13"
+              ]
+            },
+            {
+              "field": "Lift",
+              "listing_value": "Advertised",
+              "builder_value": "Listed by Builder",
+              "rera_value": "N/A",
+              "verdict": "MATCHED",
+              "note": "Listed by the builder (a checked source). Confirms builder states it, not that it is built.",
+              "evidence_ids": [
+                "E13"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E13"
+          ],
+          "buyer_questions": [
+            "What is the completion timeline for each common amenity in this tower's phase?",
+            "Will residents have access to amenities during subsequent phase construction?"
+          ]
+        }
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "finding.ready",
+      "data": {
+        "finding": {
+          "check_id": "D",
+          "title": "Price, Area & Possession Date",
+          "status": "MATCHED",
+          "reason_code": "NOT_COMPARABLE_MEASURE",
+          "attention": "INFO",
+          "headline": "Price, area specs, and possession align within standard variance.",
+          "explanation": "Listing claims [E4] align with builder pricing and sanctioned timelines [E6].",
+          "rows": [
+            {
+              "field": "Possession / Completion Date",
+              "listing_value": "Dec 2027",
+              "builder_value": "Possession: Dec 2027",
+              "rera_value": "31-12-2027",
+              "verdict": "MATCHED",
+              "note": "Dates align within 0 month(s)",
+              "evidence_ids": [
+                "E6"
+              ]
+            },
+            {
+              "field": "Area (Measurement Type)",
+              "listing_value": "1150.0 sq ft (super built-up)",
+              "builder_value": "1150.0 sq ft (super built-up)",
+              "rera_value": "67.5 sq.m carpet",
+              "verdict": "NOT_VERIFIED",
+              "note": "Listing gives 1150.0 sq ft super built-up, whereas RERA records carpet area (726.6 sq ft). These measure different boundaries; ask builder for loading factor.",
+              "evidence_ids": [
+                "E5"
+              ]
+            },
+            {
+              "field": "Pricing & Base Rate",
+              "listing_value": "Rs 1.25 Cr",
+              "builder_value": "From Rs 122.0 L",
+              "rera_value": "Not recorded on RERA",
+              "verdict": "MATCHED",
+              "note": "Starting price comparison (builder starting price is a baseline)",
+              "evidence_ids": [
+                "E4"
+              ]
+            }
+          ],
+          "evidence_ids": [
+            "E4",
+            "E5",
+            "E6",
+            "E14"
+          ],
+          "buyer_questions": [
+            "Can you provide a detailed cost sheet breaking down floor rise, car parking, and club charges?",
+            "What is the exact carpet area in sq ft defined in the sale agreement?"
+          ]
+        }
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "stage.changed",
+      "data": {
+        "stage": "REPORT",
+        "ts": "13:42:45"
+      },
+      "ts": "13:42:45"
+    },
+    {
+      "event": "report.ready",
+      "data": {
+        "report_id": "demo-run-real-1"
+      },
+      "ts": "13:42:45"
+    }
+  ]
+}

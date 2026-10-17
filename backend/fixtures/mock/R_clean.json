@@ -1,0 +1,26 @@
+{
+  "blocked": false,
+  "blocked_reason": null,
+  "search_performed": true,
+  "found": true,
+  "searched_by": "PRM/KA/RERA/1251/446/PR/171015/000456",
+  "page_url": "https://rera.karnataka.gov.in/projectDetails?regNo=PRM/KA/RERA/1251/446/PR/171015/000456",
+  "registration_no": "PRM/KA/RERA/1251/446/PR/171015/000456",
+  "project_name": "Brigade Cosmopolis Phase 1",
+  "promoter_name": "Brigade Enterprises Limited",
+  "location_text": "Whitefield, Bengaluru Urban, Karnataka",
+  "district": "Bengaluru Urban",
+  "proposed_completion_text": "31-12-2027",
+  "registered_on_text": "15-10-2017",
+  "status_text": "APPROVED",
+  "unit_areas": [
+    {
+      "label": "2 BHK Type A",
+      "carpet_area_text": "67.5 sq.m carpet"
+    },
+    {
+      "label": "3 BHK Type B",
+      "carpet_area_text": "98.2 sq.m carpet"
+    }
+  ]
+}
